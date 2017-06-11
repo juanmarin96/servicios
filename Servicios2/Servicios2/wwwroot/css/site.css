@@ -1,5 +1,4 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -34,4 +33,12 @@ textarea {
     .carousel-caption {
         display: none;
     }
+}
+
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    box-shadow: 10px 4px 3px rgba(0,0,0,.6);
 }

@@ -19,7 +19,11 @@
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="Cimagen">
+        <img src="~/images/index.png" class="img-responsive" style="width:100%">
+    </div>
+
+    <nav class="navbar navbar-inverse  menu">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,13 +32,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Servicios2</a>
+                <img src="~/images/logo.png" style="width:40px;height:30px;margin-top:8px" class="img-responsive" />
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Cómo Funciona</a></li>
+                    <li><a href="#">Equipo</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -50,6 +57,7 @@
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/menu.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
     <environment names="Staging,Production">
