@@ -42,3 +42,35 @@ textarea {
     width: 100%;
     box-shadow: 10px 4px 3px rgba(0,0,0,.6);
 }
+
+.how-container {
+    background: black;
+}
+
+.how-title {
+    color: white;
+    font-size:5em ;
+}
+
+.text-section {
+    color: white;
+}
+
+.text-color {
+    
+    color: white;
+}
+
+.icon-color {
+    color: #448aff;
+}
+
+@media (min-width: 600px) {
+      
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+    /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
