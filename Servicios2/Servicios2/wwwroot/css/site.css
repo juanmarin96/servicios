@@ -1,6 +1,6 @@
 ﻿body {
     padding-bottom: 20px;
-    
+    background: #212121;
 }
 
 /* Wrapping element */
@@ -79,3 +79,17 @@
     font-size: 4em;
 }
 
+.icono-cli {
+    color: #448aff;
+    font-size: 50px;
+    position: relative;
+    top: 45px;
+}
+
+.ico-dis {
+    color:#448aff;
+    font-size: 50px;
+}
+.color {
+    color: white;
+}
