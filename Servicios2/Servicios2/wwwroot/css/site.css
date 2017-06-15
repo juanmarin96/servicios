@@ -1,19 +1,23 @@
 ﻿body {
     padding-bottom: 20px;
+    
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
+
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+.margin-row {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 
 /* Carousel */
@@ -44,7 +48,7 @@ textarea {
 }
 
 .how-container {
-    background: black;
+    background: #212121;
 }
 
 .how-title {
@@ -65,12 +69,13 @@ textarea {
     color: #448aff;
 }
 
-@media (min-width: 600px) {
-      
+.img-how{
+    max-width: 30%;
+    max-height: 30%;
+    margin-top: 30px;
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+.icon-size {
+    font-size: 4em;
+}
 
-    /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }

@@ -10,6 +10,14 @@
 
   <ItemGroup>
     <Content Include="wwwroot\images\home-12.png" />
+    <Content Include="wwwroot\images\ImagenesComo\crecemos.png" />
+    <Content Include="wwwroot\images\ImagenesComo\diagnostico.png" />
+    <Content Include="wwwroot\images\ImagenesComo\estrategia.png" />
+    <Content Include="wwwroot\images\ImagenesComo\implementamos.png" />
+    <Content Include="wwwroot\images\ImagenesComo\pictogramas crecemos.png" />
+    <Content Include="wwwroot\images\ImagenesComo\pictogramas diagnosticamos.png" />
+    <Content Include="wwwroot\images\ImagenesComo\pictogramas estretegia.png" />
+    <Content Include="wwwroot\images\ImagenesComo\pictogramas implementamos.png" />
     <Content Include="wwwroot\images\index.PNG" />
     <Content Include="wwwroot\images\logo.png" />
     <Content Include="wwwroot\js\menu.js" />
