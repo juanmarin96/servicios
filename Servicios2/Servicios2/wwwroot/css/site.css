@@ -93,3 +93,37 @@
 .color {
     color: white;
 }
+
+.img-blog {
+    width: 100%;
+}
+
+
+.blog-row {
+    margin-top: 50px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+
+.btn-articulos {
+    height: 40px;
+    background: gray;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-blog {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
