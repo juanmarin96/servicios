@@ -75,6 +75,32 @@
     margin-top: 30px;
 }
 
+.img-center-how {
+    max-width: 40%;
+    max-height: 40%;
+    position: absolute;
+}
+
+#img-est{
+    top: 10px;
+    left: 45px;
+}
+
+#img-diag {
+    top: 130px;
+    left: 250px;
+}
+
+#img-imp {
+    top: 270px;
+    left:0px;
+}
+
+#img-cre {
+    top: 410px;
+    left: 200px;
+}
+
 .icon-size {
     font-size: 4em;
 }
