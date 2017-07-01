@@ -50,5 +50,3 @@ $(function () {
     $('.titulo-encab').css('color', '#ffab40');
     setTimeout(changebg, 10000);
 })
-
-

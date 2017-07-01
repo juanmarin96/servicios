@@ -5,7 +5,7 @@
 body {
     font-family: FuturaStd-MediumOblique;
     padding-bottom: 20px;
-    background-color: #202020;
+    background-color: #212121;
 }
 
 /* Wrapping element */
@@ -174,7 +174,9 @@ body {
     padding-top: 180px
 }
 ///////////////////
-@screen-xs-max: 500px; @screen-sm-max: 768px; @screen-sm-min: (@screen-xs-max + 1); @screen-md-max: 992px; @screen-md-min: (@screen-sm-max + 1); .titulo-serv {
+@screen-xs-max: 535px; @screen-sm-max: 815px; @screen-sm-min: (@screen-xs-max + 1); @screen-md-max: 992px; @screen-md-min: (@screen-sm-max + 1); 
+                                                                                                           
+.titulo-serv {
     margin-top: 40px;
     color: #ffffff;
     font-weight: bold;
@@ -209,7 +211,7 @@ body {
 
 .algo-emocional {
     position: relative;
-    left: 820px;
+    left: 920px;
     bottom: 140px;
 
     h3 {
@@ -225,14 +227,14 @@ body {
         color: #ffffff;
     }
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1300px) {
         visibility: hidden;
     }
 }
 
 .algo-emocional-2 {
     position: relative;
-    left: 820px;
+    left: 880px;
     bottom: 500px;
 
     h3 {
@@ -252,6 +254,24 @@ body {
         visibility: hidden;
     }
 }
+
+.algo-emocional-3 {
+    position: relative;
+
+    h3 {
+        position: relative;
+        font-size: 12px;
+        color: #ffffff;
+    }
+
+    p {
+        position: relative;
+        font-size: 25px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
+
 
 .gray {
     filter: grayscale(100%);
@@ -529,11 +549,37 @@ body {
 
 .flor {
     position: relative;
+    max-height: 650px;
     bottom: 210px;
+    left: 40px;
+
+    @media screen and (max-width: 430px) {
+        max-height: 200px;
+        bottom: 230px;
+        left: -10px;
+    }
+
+    @media screen and (max-width: @screen-xs-max) and (min-width: 429px) {
+        max-height: 300px;
+        bottom: 230px;
+        left: -40px;
+    }
+
+    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
+        max-height: 400px;
+        bottom: 230px;
+        left: 0px;
+    }
+
+    @media screen and (max-width: @screen-sm-max) and (min-width: 649px) {
+        max-height: 400px;
+        bottom: 230px;
+        left: 0px;
+    }
 
     @media screen and (max-width: @screen-md-max) and (min-width:@screen-md-min) {
-        bottom: 120px;
-        right: 210px;
+        bottom: 150px;
+        left: -120px;
     }
 }
 
