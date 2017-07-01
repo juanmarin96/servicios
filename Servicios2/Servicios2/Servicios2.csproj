@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\css\site.less" />
     <Content Include="wwwroot\images\home-12.png" />
     <Content Include="wwwroot\images\ImagenesBlog\19184104_1563135163737785_1014907494_n.png" />
     <Content Include="wwwroot\images\ImagenesBlog\19191078_1563135380404430_1939419662_n.png" />
