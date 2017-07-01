@@ -915,3 +915,29 @@ body {
     font-size: 25px;
   }
 }
+.in {
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  background-color: #202020;
+  border-bottom: 2px solid #989898;
+  border-radius: 0px;
+  color: white;
+}
+.color-est {
+  color: white;
+}
+.color-orange {
+  color: #ff6e40;
+}
+.color-o {
+  background-color: #ff6e40;
+}
+.color-ico-mas {
+  color: black;
+  background-color: #ff6e40;
+  border-radius: 4px;
+}
+.img-flor {
+  width: 230px;
+}
