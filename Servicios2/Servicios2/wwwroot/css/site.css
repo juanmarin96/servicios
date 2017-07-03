@@ -980,8 +980,47 @@ body {
 .color-ico-mas {
   color: black;
   background-color: #ff6e40;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .img-flor {
   width: 230px;
+}
+@media screen and (max-width: 535px) {
+  .img-flor {
+    width: 100px;
+  }
+}
+.iconos-estrategia {
+  width: 50px;
+}
+.flor-estrategia #imagen-flor-6 {
+  margin-top: 40%;
+  margin-left: 50%;
+}
+.flor-estrategia #imagen-flor-1 {
+  margin-top: -20%;
+  margin-left: 50%;
+}
+.flor-estrategia #imagen-flor-5 {
+  margin-left: 122%;
+  margin-top: -140%;
+}
+.flor-estrategia #imagen-flor-7 {
+  margin-left: -22%;
+  margin-top: -100%;
+}
+.flor-estrategia #imagen-flor-2 {
+  margin-left: -18%;
+  margin-top: -20%;
+}
+.flor-estrategia #imagen-flor-3 {
+  margin-left: 124%;
+  margin-top: -97%;
+}
+.flor-estrategia #imagen-flor-4 {
+  margin-left: 50%;
+  margin-top: -60%;
+}
+.tam {
+  font-size: 25px;
 }
