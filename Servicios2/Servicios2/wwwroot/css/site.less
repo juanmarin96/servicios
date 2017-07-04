@@ -1063,7 +1063,6 @@ body {
         margin-left: 124%;
         margin-top: -97%;
     }
-}
 
     #imagen-flor-4 {
         margin-left: 50%;
@@ -1087,7 +1086,7 @@ body {
     color: black;
 
     @media screen and (max-width: @screen-xs-max) {
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
@@ -1162,6 +1161,14 @@ body {
 
     @media screen and (max-width: 989px) {
         left: 20px;
+    }
+
+    @media screen and (max-width: 989px) and (min-width:@screen-sm-min) {
+        left:20px;
+    }
+
+    @media screen and (max-width: @screen-xs-max) {
+        left: 0px;
     }
 }
 
@@ -1423,13 +1430,14 @@ body {
         color: black;
     }
 }
-.img-verdades {
-    img {
-        width: 290px;
-    }
-}
 
-.planing {
+.disrupcion {
+    max-width: 300px;
+
+    @media screen and (max-width: 989px) {
+        max-width: 100%;
+    }
+
     h3 {
         font-weight: bold;
         color: #ff6e40;
@@ -1440,6 +1448,145 @@ body {
     }
 }
 
-.img-planing{
-    width:290px;
+.sombreros{
+
 }
+
+#tamano-sombrero {
+    width: 190px;
+
+    @media screen and (max-width: 1200px) and (min-width:990px) {
+        width: 160px;
+    }
+
+    @media screen and (max-width: 989px) and (min-width:750px) {
+        width: 130px;
+    }
+
+    @media screen and (max-width: 749px) and (min-width: @screen-sm-min) {
+        width: 100px;
+    }
+
+    @media screen and (max-width: @screen-xs-max) {
+        width: 60px;
+    }
+}
+
+
+.sombrero-lineas {
+    width: 470px;
+    position: relative;
+    bottom: 120px;
+    left: 590px;
+
+    @media screen and (max-width: 1200px) and (min-width:990px) {
+        width: 390px;
+        bottom: 100px;
+        left: 500px;
+    }
+
+    @media screen and (max-width: 989px) and (min-width:750px) {
+        width: 290px;
+        top: 22px;
+        left: 330px;
+    }
+
+    @media screen and (max-width: 749px) and (min-width: @screen-sm-min) {
+        width: 200px;
+        top: 24px;
+        left: 235px;
+    }
+
+    @media screen and (max-width: @screen-xs-max) {
+        width: 100px;
+        top: 25px;
+        left: 140px;
+    }
+}
+
+.sombrero-blanco {
+    margin-top: -260%;
+    margin-left: 235%;
+
+    @media screen and (max-width: 989px) and (min-width:750px) {
+        margin-top: -170%;
+        margin-left: 175%;
+    }
+
+    @media screen and (max-width: 749px) and (min-width: @screen-sm-min) {
+        margin-top: -150px;
+        margin-left: 155%;
+    }
+
+    @media screen and (max-width: @screen-xs-max) {
+        margin-top: -120%;
+        margin-left: 155%;
+    }
+}
+
+.sombrero-rojo {
+    margin-top: -49%;
+    margin-left: 157%;
+
+    @media screen and (max-width: 989px) and (min-width:@screen-sm-min) {
+        margin-left: 97%;
+    }
+
+    @media screen and (max-width: 749px) {
+        margin-left: 77%;
+    }
+}
+
+.sombrero-verde {
+    margin-top: -49%;
+    margin-left: 235%;
+
+    @media screen and (max-width: 989px) and (min-width:@screen-sm-min) {
+        margin-left: 175%;
+    }
+
+    @media screen and (max-width: 749px) {
+        margin-left: 155%;
+    }
+}
+
+.sombrero-azul {
+    margin-top: -96%;
+    margin-left: 78%;
+
+    @media screen and (max-width: 989px) and (min-width:@screen-sm-min) {
+        margin-left: 18%;
+    }
+
+    @media screen and (max-width: 749px) {
+        margin-left: -2%;
+    }
+}
+
+.sombrero-negro {
+    margin-top: -49%;
+    margin-left: 157%;
+
+    @media screen and (max-width: 989px) and (min-width:@screen-sm-min) {
+        margin-left: 97%;
+    }
+
+    @media screen and (max-width: 749px) {
+        margin-left: 77%;
+    }
+}
+
+.sombrero-amarillo {
+    margin-top: -50%;
+    margin-left: 78%;
+
+    @media screen and (max-width: 989px) and (min-width:@screen-sm-min) {
+        margin-left: 18%;
+    }
+
+    @media screen and (max-width: 749px) {
+        margin-left: -2%;
+    }
+}
+
+
