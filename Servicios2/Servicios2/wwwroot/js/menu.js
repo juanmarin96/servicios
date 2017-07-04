@@ -28,3 +28,11 @@ function posicionarMenu() {
         $('.menu').removeClass('menu-fixed');
     }
 }
+
+
+//ver más de estrategia1
+$(document).ready(function () {
+    $("#mostrar").on("click", function () {
+        $('.estrategia-blanca').show();
+    });
+});

@@ -1017,47 +1017,12 @@ body {
   margin-left: 124%;
   margin-top: -97%;
 }
-.flor-estrategia #imagen-flor-4 {
+#imagen-flor-4 {
   margin-left: 50%;
   margin-top: -60%;
 }
 .tam {
   font-size: 25px;
-}
-@media screen and (max-width: 535px) {
-  .img-flor {
-    width: 100px;
-  }
-}
-.iconos-estrategia {
-  width: 50px;
-}
-.flor-estrategia #imagen-flor-6 {
-  margin-top: 40%;
-  margin-left: 50%;
-}
-.flor-estrategia #imagen-flor-1 {
-  margin-top: -20%;
-  margin-left: 50%;
-}
-.flor-estrategia #imagen-flor-5 {
-  margin-left: 122%;
-  margin-top: -140%;
-}
-.flor-estrategia #imagen-flor-7 {
-  margin-left: -22%;
-  margin-top: -100%;
-}
-.flor-estrategia #imagen-flor-2 {
-  margin-left: -18%;
-  margin-top: -20%;
-}
-.flor-estrategia #imagen-flor-3 {
-  margin-left: 124%;
-  margin-top: -97%;
-}
-.img-flor {
-  width: 230px;
 }
 .estrategia-blanca {
   background-color: white;
@@ -1356,4 +1321,17 @@ body {
 }
 .onnovation p {
   color: black;
+}
+.img-verdades img {
+  width: 290px;
+}
+.planing h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.planing p {
+  color: black;
+}
+.img-planing {
+  width: 290px;
 }
