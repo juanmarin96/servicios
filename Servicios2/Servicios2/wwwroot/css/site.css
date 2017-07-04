@@ -983,7 +983,46 @@ body {
   border-radius: 10px;
 }
 .img-flor {
-  width: 230px;
+  width: 208px;
+}
+@media screen and (max-width: 535px) {
+  .img-flor {
+    width: 100px;
+  }
+}
+.iconos-estrategia {
+  width: 50px;
+}
+.flor-estrategia #imagen-flor-6 {
+  margin-top: 40%;
+  margin-left: 50%;
+}
+.flor-estrategia #imagen-flor-1 {
+  margin-top: -20%;
+  margin-left: 50%;
+}
+.flor-estrategia #imagen-flor-5 {
+  margin-left: 122%;
+  margin-top: -140%;
+}
+.flor-estrategia #imagen-flor-7 {
+  margin-left: -22%;
+  margin-top: -100%;
+}
+.flor-estrategia #imagen-flor-2 {
+  margin-left: -18%;
+  margin-top: -20%;
+}
+.flor-estrategia #imagen-flor-3 {
+  margin-left: 124%;
+  margin-top: -97%;
+}
+.flor-estrategia #imagen-flor-4 {
+  margin-left: 50%;
+  margin-top: -60%;
+}
+.tam {
+  font-size: 25px;
 }
 .estrategia-blanca {
   background-color: white;
@@ -1152,4 +1191,47 @@ body {
 }
 .insights3:hover {
   filter: grayscale(0%);
+}
+.insight-innovation h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.insight-innovation p {
+  color: black;
+}
+.cita-insight p {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.exploramos img {
+  width: 270px;
+}
+.exploramos .par {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.exploramos p {
+  color: black;
+}
+.cazamos img {
+  width: 270px;
+}
+.cazamos .content-cazamos .text-c {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.cazamos .content-cazamos p {
+  color: black;
+}
+.onnovation img {
+  width: 270px;
+}
+.onnovation .text-o {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.onnovation p {
+  color: black;
 }
