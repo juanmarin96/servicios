@@ -983,15 +983,26 @@ body {
   border-radius: 10px;
 }
 .img-flor {
-  width: 208px;
+  width: 190px;
 }
 @media screen and (max-width: 535px) {
   .img-flor {
     width: 100px;
   }
 }
+@media screen and (max-width: 1100px) and (min-width: 990px) {
+  .img-flor {
+    width: 150px;
+  }
+}
 .iconos-estrategia {
   width: 50px;
+}
+.content-iconos {
+  margin-left: 4%;
+}
+.flor-estrategia {
+  margin-left: 23%;
 }
 .flor-estrategia #imagen-flor-6 {
   margin-top: 40%;
@@ -1530,6 +1541,40 @@ body {
     margin-left: -2%;
   }
 }
+.modelo h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff6e40;
+}
+.modelo .content-modelo {
+  max-width: 280px;
+}
+@media screen and (max-width: 989px) {
+  .modelo .content-modelo {
+    max-width: 100%;
+  }
+}
+.modelo .content-modelo p {
+  color: black;
+}
+.img-modelo {
+  width: 500px;
+}
+.img-embudo {
+  width: 520px;
+  margin-top: -5%;
+  margin-left: 10%;
+}
+@media screen and (max-width: 989px) {
+  .img-embudo {
+    margin-top: 4%;
+  }
+}
+.img-home13 {
+  width: 470px;
+  margin-left: 15%;
+  margin-top: 12%;
+}
 .tecnica h3 {
   font-weight: bold;
   color: #ff6e40;
@@ -1540,4 +1585,9 @@ body {
 }
 .img-est-1 img {
   width: 850px;
+}
+.barra-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 100px;
 }

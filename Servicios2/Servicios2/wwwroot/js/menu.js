@@ -36,3 +36,23 @@ $(document).ready(function () {
         $('.estrategia-blanca').show();
     });
 });
+
+
+//barra de navegacion fija
+posicionarBarra();
+
+$(window).scroll(function () {
+    posicionarBarra();
+});
+
+function posicionarBarra() {
+    var altura_iconos = $('.iconos').position().top;
+    var altura_nav = $('.iconos-nav').outerHeight(true);
+
+    if ($(window).scrollTop() >= altura_iconos) {
+        console.log($(window).scrollTop(), altura_iconos)
+        $('.iconos-nav').addClass('barra-fixed');
+    } else {
+        $('.iconos-nav').removeClass('barra-fixed');
+    }
+}
