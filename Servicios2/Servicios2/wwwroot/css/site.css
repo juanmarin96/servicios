@@ -1289,6 +1289,14 @@ body {
 .insights3:hover {
   filter: grayscale(0%);
 }
+.insight-innovation {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .insight-innovation {
+    max-width: 100%;
+  }
+}
 .insight-innovation h3 {
   font-weight: bold;
   color: #ff6e40;
@@ -1335,6 +1343,14 @@ body {
 .img-verdades img {
   width: 460px;
 }
+.planing {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .planing {
+    max-width: 100%;
+  }
+}
 .planing h3 {
   font-weight: bold;
   color: #ff6e40;
@@ -1342,8 +1358,13 @@ body {
 .planing p {
   color: black;
 }
-.img-planing {
+.img-planing img {
   width: 390px;
+}
+@media screen and (max-width: 535px) {
+  .img-planing img {
+    width: 300px;
+  }
 }
 .disrupcion {
   max-width: 300px;
@@ -1508,4 +1529,15 @@ body {
   .sombrero-amarillo {
     margin-left: -2%;
   }
+}
+.tecnica h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.tecnica p {
+  color: #c9bfd4;
+  font-size: 20px;
+}
+.img-est-1 img {
+  width: 850px;
 }
