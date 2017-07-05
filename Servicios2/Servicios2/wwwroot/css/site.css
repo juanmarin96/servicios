@@ -1509,3 +1509,37 @@ body {
     margin-left: -2%;
   }
 }
+.modelo h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff6e40;
+}
+.modelo .content-modelo {
+  max-width: 280px;
+}
+@media screen and (max-width: 989px) {
+  .modelo .content-modelo {
+    max-width: 100%;
+  }
+}
+.modelo .content-modelo p {
+  color: black;
+}
+.img-modelo {
+  width: 500px;
+}
+.img-embudo {
+  width: 520px;
+  margin-top: -5%;
+  margin-left: 10%;
+}
+@media screen and (max-width: 989px) {
+  .img-embudo {
+    margin-top: 4%;
+  }
+}
+.img-home13 {
+  width: 470px;
+  margin-left: 15%;
+  margin-top: 12%;
+}
