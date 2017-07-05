@@ -46,13 +46,13 @@
         </div>
         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                 <div class="flor-estrategia" style="display:inline-block;">
-                    <img src="~/images/flor6.png" class="img-responsive img-flor" id="imagen-flor-6" />
+                    <img src="~/images/flor6.png" class="img-responsive img-flor grayest" id="imagen-flor-6" />
                     <img src="~/images/flor1.png" class="img-responsive img-flor" id="imagen-flor-1" />
-                    <img src="~/images/flor5.png" class="img-responsive img-flor" id="imagen-flor-5" />
-                    <img src="~/images/flor7.png" class="img-responsive img-flor" id="imagen-flor-7" />
-                    <img src="~/images/flor2.png" class="img-responsive img-flor" id="imagen-flor-2" />
-                    <img src="~/images/flor3.png" class="img-responsive img-flor" id="imagen-flor-3" />
-                    <img src="~/images/flor4.png" class="img-responsive img-flor" id="imagen-flor-4" />
+                    <img src="~/images/flor5.png" class="img-responsive img-flor grayest" id="imagen-flor-5" />
+                    <img src="~/images/flor7.png" class="img-responsive img-flor grayest" id="imagen-flor-7" />
+                    <img src="~/images/flor2.png" class="img-responsive img-flor grayest" id="imagen-flor-2" />
+                    <img src="~/images/flor3.png" class="img-responsive img-flor grayest" id="imagen-flor-3" />
+                    <img src="~/images/flor4.png" class="img-responsive img-flor grayest" id="imagen-flor-4" />
 
                 </div>
         </div>
@@ -61,16 +61,8 @@
                 <img src="~/images/ImagenesComo/19397866_1568374316547203_28981247_n.png"  class="img-responsive"/>
             </div>
             <div>
-                <h1 class="color-orange">
-                    Branding
-                </h1>
-                <p class="color-est">
-                    es simplemente el texto de relleno de las
-                    imprentas y archivos de texto. Lorem Ipsum
-                    ha sido el texto de relleno estándar de las
-                    industrias desde el año 1500, cuando un
-                    impresor (N.del T. persona que se dedica.
-                </p>
+                <h1 class="color-orange" id="titulo-variable"></h1>
+                <p class="color-est" id="texto-variable"></p>
                 <span class="glyphicon glyphicon-plus color-ico-mas tam"></span>
             </div>
         </div>
@@ -89,14 +81,14 @@
         <div class="iconos" style="width:100%;height:50px;background-color:white"></div>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-lg-offset-4 col-md-offset-4 col-xs-12 col-sm-12" style="left:27px">
-                <div class="iconos-nav">
-                    <img src="~/images/flor2.png" align="middle" style="width:50px">
-                    <img src="~/images/flor7.png" align="middle" style="width:50px">
-                    <img src="~/images/flor6.png" align="middle" style="width:50px">
+                <div class="menu-estrategia">
+                    <img src="~/images/flor2.png" id="imgflor2" align="middle" style="width:50px">
+                    <img src="~/images/flor7.png" id="imgflor7" align="middle" style="width:50px">
+                    <img src="~/images/flor6.png" id="imgflor6" align="middle" style="width:50px">
                     <img src="~/images/flor1.png" align="middle" style="width:50px">
-                    <img src="~/images/flor5.png" align="middle" style="width:50px">
-                    <img src="~/images/flor3.png" align="middle" style="width:50px">
-                    <img src="~/images/flor4.png" align="middle" style="width:50px">
+                    <img src="~/images/flor5.png" id="imgflor5" align="middle" style="width:50px">
+                    <img src="~/images/flor3.png" id="imgflor3" align="middle" style="width:50px">
+                    <img src="~/images/flor4.png" id="imgflor4" align="middle" style="width:50px">
                 </div>
             </div>
         </div>
@@ -222,9 +214,9 @@
             </div>
             <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                 <div class="insight" style="display:inline-block">
-                    <img class="img-responsive insights1" id="tamano-insights" src="~/Content/Images/e_insightful_innovation.png">
+                    <img class="img-responsive insights1 grayins" id="tamano-insights" src="~/Content/Images/e_insightful_innovation.png">
                     <img class="img-responsive insights3" id="tamano-insights" src="~/Content/Images/e_insights.png">
-                    <img class="img-responsive insights2" id="tamano-insights" src="~/Content/Images/e_insightful_planning.png">
+                    <img class="img-responsive insights2 grayins" id="tamano-insights" src="~/Content/Images/e_insightful_planning.png">
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
@@ -237,13 +229,9 @@
                 </div>
                 <br /><br /><br /><br /><br />
                 <div class="desarrollo" style="text-align:left">
-                    <h3>
-                        Insightful Innovation
-                    </h3>
+                    <h3 id="titulo-insights"></h3>
                     <div id="desarrollo-insight">
-                        <p>
-                            Usando una mezcla híbrida de técnicas innovadoras. Somos capaces de encontrar y generar insights más frescos y poderosos, logrando potencializar el crecimiento de tu negocio.
-                        </p>
+                        <p id="texto-insights"></p>
                         <span class="glyphicon glyphicon-plus color-ico-mas tam"></span>
                     </div>
                 </div>
@@ -517,6 +505,7 @@
             <img class="img-responsive img-embudo" src="~/Content/Images/e_embudo.png">
         </div>
     </div>
+    <br /><br /><br /><br /><br /><br />
     <div class="row">
         <div class="col-lg-12 col-md-12 tecnica">
             <h3>Técnica Insigths Omarketing</h3>
@@ -535,6 +524,140 @@
         <div class="col-lg-4 col-md-4">
             <div>
                 <img src="~/images/estrategia tecnica onsight 2.png" class="img-responsive" />
+            </div>
+        </div>
+    </div>
+
+    <!--Omnichannel-->
+    <br /><br /><br /><br /><br /><br />
+    <div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" style="text-align:left">
+                <h1 id="encab-crecimiento">OMNICHANNEL</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                <br />
+                <div class="crecimiento">
+                    <h3>Omnichannel Marketing</h3>
+                    <div>
+                        <p>La mayoría de las empresas requieren una mezcla de marketing online y ofﬂine para generar nuevos cliente y comunicarse con los actuales</p>
+                        <br />
+                        <p>Utilizamos nuestra metodología Omarketing para identiﬁcar a tus clientes objetivo, mapear un viaje (customer journey) para impulsar el compromiso y las conversiones, logrando TRANSMITIR un mensaje uniﬁcado para estimular los sentidos y aumentar el recuerdo por medio de las emociones.</p>
+                        <br />
+                        <p>No somos una agencia de anuncios de spray y oración. Su ROI es nuestra misión y KPI, por esta razón entendemos la importancia de la omnicanalidad; enviar trozos del mensaje objetivo en cada uno</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+                <div style="display:inline-block">
+                    <img class="img-responsive online grayomni" id="tamano-omnichannel" src="~/Content/Images/e_online.png">
+                    <img class="img-responsive offline grayomni" id="tamano-omnichannel" src="~/Content/Images/e_offline.png">
+                    <img class="img-responsive tdl grayomni" id="tamano-omnichannel" src="~/Content/Images/e_tdl.png">
+                    <img class="img-responsive omnichannel" id="tamano-omnichannel" src="~/images/flor3.png" >
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-xs-12 col-sm-12">
+                <br />
+                <div class="cita-crecimiento visible-lg visible-md"  style="text-align:right; left:-10px;">
+                    <span>__</span>
+                    <p>
+                        "Para comunicarnos eficazmente, debemos darnos cuenta que todos somos diferentes en la forma en que percibimos el mundo y usamos este entendimiento como una guía para nuestra comunicación con los demás."
+                    </p>
+                    <h3>
+                        ANTHONY ROBBINS.
+                    </h3>
+                </div>
+                <br /><br /><br /><br /><br />
+                <div class="desarrollo" id="variable-omnichannel" style="text-align:left">
+                    <h3 id="titulo-omnichannel"></h3>
+                    <div id="desarrollo-insight">
+                        <p id="texto-omnichannel"></p>
+                        <span class="glyphicon glyphicon-plus color-ico-mas tam"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Marketing Offline-->
+
+    <br /><br /><br /><br /><br /><br />
+    <div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                <div class="crecimiento">
+                    <h3>Marketing Offline</h3>
+                    <div class="texto-offline">
+                        <p>Ciertamente estamos viviendo en una era digital, pero estadísticas como ésta muestran que no podemos ignorar el canal tradicional (ofﬂine). Omarketing mira el cuadro entero, integrando perfectamente el marketing OFF y ON logrando potencializar el efecto de cada uno “Fusion Marketing”.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                <div class="visible-lg visible-md" style="display:inline-block">
+                    <img class="img-responsive" align="middle" style="margin-top: 5%; margin-left:20%;" src="~/Content/Images/e_offline.png">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                <br />
+                <br />
+                <div class="cita-crecimiento visible-lg visible-md" style="text-align:right; left:-10px;">
+                    <span>__</span>
+                    <p>
+                        Casi el 40% de los buscadores en línea realizan una compra tras ser influenciados por un canal sin conexión.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row offline-container">
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <img class="img-responsive" src="~/Content/Images/e_atl.png">
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div>
+                        <h4 style="color:#ff6e40">ATL</h4>
+                        <div class="content-modelo">
+                            <p>Entendido dentro del marketing como “Above The Line” se reﬁere a realizar actividades promocióneseles a nivel macro, llegando masivamente, siendo de un alcance muy amplio y no directo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br /><br /><br />
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <img class="img-responsive" src="~/Content/Images/e_btl.png">
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div>
+                        <h4 style="color:#ff6e40">BTL</h4>
+                        <div class="content-modelo">
+                            <p>Entendido dentro del marketing como “Below The Line”, se reﬁere a una comunicación no convencional, realizado a nivel micro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br /><br /><br />
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <img class="img-responsive" src="~/Content/Images/e_ttl.png">
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                    <div>
+                        <h4 style="color:#ff6e40">TTL</h4>
+                        <div class="content-modelo">
+                            <p>“Through the line” se reﬁere a una estrategia de marketing en la que combinan los medios ATL y BTL. Esta estrategia permite a las marcas generar un vinculo con los clientes en varios puntos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="visible-lg visible-md">
+                <img src="~/images/ImagenesComo/19397866_1568374316547203_28981247_n.png" class="img-responsive" />
             </div>
         </div>
     </div>
