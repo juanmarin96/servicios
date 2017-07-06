@@ -1001,9 +1001,6 @@ body {
 .grayest {
   filter: grayscale(100%);
 }
-.content-iconos {
-  margin-left: 4%;
-}
 .flor-estrategia {
   margin-left: 23%;
 }
@@ -1636,40 +1633,6 @@ body {
   margin-left: 15%;
   margin-top: 12%;
 }
-.modelo h4 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #ff6e40;
-}
-.modelo .content-modelo {
-  max-width: 280px;
-}
-@media screen and (max-width: 989px) {
-  .modelo .content-modelo {
-    max-width: 100%;
-  }
-}
-.modelo .content-modelo p {
-  color: black;
-}
-.img-modelo {
-  width: 500px;
-}
-.img-embudo {
-  width: 520px;
-  margin-top: -5%;
-  margin-left: 10%;
-}
-@media screen and (max-width: 989px) {
-  .img-embudo {
-    margin-top: 4%;
-  }
-}
-.img-home13 {
-  width: 470px;
-  margin-left: 15%;
-  margin-top: 12%;
-}
 .tecnica h3 {
   font-weight: bold;
   color: #ff6e40;
@@ -1680,6 +1643,11 @@ body {
 }
 .img-est-1 img {
   width: 850px;
+}
+.barra-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 70px;
 }
 .grayomni {
   filter: grayscale(100%);
@@ -1794,9 +1762,13 @@ body {
     margin-top: 0%;
   }
 }
+.img-markonline {
+  margin-top: 30%;
+  margin-left: 4%;
 }
-.barra-fixed {
-  position: fixed;
-  z-index: 1000;
-  top: 100px;
+@media screen and (max-width: 989px) {
+  .img-markonline {
+    margin-top: 6%;
+    margin-left: 22%;
+  }
 }
