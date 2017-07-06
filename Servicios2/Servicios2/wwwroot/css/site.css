@@ -1001,6 +1001,12 @@ body {
 .grayest {
   filter: grayscale(100%);
 }
+.content-iconos {
+  margin-left: 4%;
+}
+.grayest {
+  filter: grayscale(100%);
+}
 .flor-estrategia {
   margin-left: 23%;
 }
@@ -1762,13 +1768,113 @@ body {
     margin-top: 0%;
   }
 }
-.img-markonline {
-  margin-top: 30%;
-  margin-left: 4%;
+.engine {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .engine {
+    max-width: 100%;
+  }
+}
+.engine h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.engine .title {
+  color: #ff6e40;
+}
+.engine p {
+  color: black;
+}
+.search {
+  margin-left: 30%;
+}
+@media screen and (min-width: 200px) and (max-width: 990px) {
+  .search {
+    margin-left: 5px;
+  }
+}
+.search p {
+  color: black;
+}
+.search h3 {
+  color: #ff6e40;
+}
+.search .title {
+  color: #ff6e40;
+}
+.analytic {
+  margin-top: 180px;
+}
+@media screen and (max-width: 815px) {
+  .analytic {
+    margin-top: 5px;
+  }
+}
+.img-google img {
+  width: 400px;
+}
+.Advertising {
+  margin-left: 30%;
+}
+@media screen and (min-width: 200px) and (max-width: 990px) {
+  .Advertising {
+    margin-left: 5px;
+  }
+}
+.busines-inteligent {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .busines-inteligent {
+    max-width: 100%;
+  }
+}
+.busines-inteligent h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.busines-inteligent p {
+  color: black;
+}
+.content-img-bsusines img {
+  width: 400px;
+}
+.cita-busines {
+  left: -10px;
+  text-align: right;
+  position: relative;
+}
+.cita-busines span {
+  font-weight: bold;
+  color: black;
+}
+.cita-busines p {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.wep-app {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .wep-app {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 989px) {
   .img-markonline {
     margin-top: 6%;
     margin-left: 22%;
   }
+.wep-app h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.wep-app p {
+  color: black;
+}
+.content-img-web-app img {
+  width: 400px;
 }
