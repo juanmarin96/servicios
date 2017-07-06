@@ -998,6 +998,9 @@ body {
 .iconos-estrategia {
   width: 50px;
 }
+.grayest {
+  filter: grayscale(100%);
+}
 .content-iconos {
   margin-left: 4%;
 }
@@ -1860,6 +1863,11 @@ body {
     max-width: 100%;
   }
 }
+@media screen and (max-width: 989px) {
+  .img-markonline {
+    margin-top: 6%;
+    margin-left: 22%;
+  }
 .wep-app h3 {
   font-weight: bold;
   color: #ff6e40;
