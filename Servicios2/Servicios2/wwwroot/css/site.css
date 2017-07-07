@@ -921,7 +921,7 @@ body {
   position: relative;
   width: 400px;
   left: 20px;
-  bottom: 700px;
+  bottom: 715px;
 }
 @media screen and (max-width: 1260px) {
   .img-logo-equipo {
@@ -997,9 +997,6 @@ body {
 }
 .iconos-estrategia {
   width: 50px;
-}
-.grayest {
-  filter: grayscale(100%);
 }
 .content-iconos {
   margin-left: 4%;
@@ -1115,6 +1112,10 @@ body {
 .crecimiento h3 {
   font-size: 30px;
   font-weight: bold;
+  color: #ff6e40;
+}
+.crecimiento h4 {
+  font-size: 25px;
   color: #ff6e40;
 }
 .crecimiento p {
@@ -1251,6 +1252,11 @@ body {
 .unicos h1 {
   font-size: 50px;
   color: #ff6e40;
+}
+@media screen and (max-width: 535px) {
+  .unicos h1 {
+    font-size: 40px;
+  }
 }
 .unicos p {
   position: relative;
@@ -1768,6 +1774,16 @@ body {
     margin-top: 0%;
   }
 }
+.img-markonline {
+  margin-top: 30%;
+  margin-left: 4%;
+}
+@media screen and (max-width: 989px) {
+  .img-markonline {
+    margin-top: 6%;
+    margin-left: 22%;
+  }
+}
 .engine {
   max-width: 350px;
 }
@@ -1863,11 +1879,6 @@ body {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 989px) {
-  .img-markonline {
-    margin-top: 6%;
-    margin-left: 22%;
-  }
 .wep-app h3 {
   font-weight: bold;
   color: #ff6e40;
@@ -1877,4 +1888,138 @@ body {
 }
 .content-img-web-app img {
   width: 400px;
+}
+@media screen and (max-width: 989px) {
+  .tdl2 {
+    margin-top: 5%;
+  }
+}
+.kicker {
+  margin-top: -60%;
+}
+@media screen and (max-width: 989px) {
+  .kicker {
+    margin-top: 5%;
+  }
+}
+.kicker #texto-kicker {
+  max-width: 300px;
+}
+@media screen and (max-width: 989px) {
+  .kicker #texto-kicker {
+    max-width: 100%;
+  }
+}
+.img-tdlkicker {
+  width: 100%;
+}
+@media screen and (max-width: 989px) {
+  .img-tdlkicker {
+    width: 70%;
+  }
+}
+.interaccion {
+  margin-top: -15%;
+  margin-left: 54%;
+}
+@media screen and (max-width: 989px) {
+  .interaccion {
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+}
+.interaccion #interaccion-enumerado {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .interaccion #interaccion-enumerado {
+    width: 100%;
+  }
+}
+.interaccion #interaccion-enumerado h4 {
+  display: inline;
+  font-weight: 100;
+  color: #ff6e40;
+}
+.interaccion h4 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.interaccion p {
+  text-align: left;
+  position: relative;
+  display: inline;
+  margin-top: 0px;
+  color: black;
+}
+.buenaspracticas h1 {
+  font-size: 40px;
+  color: #ff6e40;
+}
+@media screen and (max-width: 535px) {
+  .buenaspracticas h1 {
+    font-size: 30px;
+  }
+}
+.buenaspracticas p {
+  position: relative;
+  margin-top: 0px;
+  font-size: 28px;
+  color: black;
+}
+#buenaspracticas-enumerado {
+  margin-top: 10%;
+  max-width: 200px;
+  margin-left: -10%;
+}
+@media screen and (max-width: 989px) {
+  #buenaspracticas-enumerado {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 20%;
+  }
+}
+#buenaspracticas-enumerado h4 {
+  display: inline;
+  font-weight: 100;
+  color: #ff6e40;
+}
+#buenaspracticas-enumerado p {
+  text-align: left;
+  position: relative;
+  display: inline;
+  margin-top: 0px;
+  color: black;
+}
+#buenaspracticas-enumerado img {
+  width: 100px;
+  margin-left: 15%;
+}
+#buenasp {
+  margin-top: 10%;
+  margin-left: 10%;
+  max-width: 200px;
+}
+@media screen and (max-width: 989px) {
+  #buenasp {
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 20%;
+  }
+}
+#buenasp h4 {
+  display: inline;
+  font-weight: 100;
+  color: #ff6e40;
+}
+#buenasp p {
+  text-align: left;
+  position: relative;
+  display: inline;
+  margin-top: 0px;
+  color: black;
+}
+#buenasp img {
+  width: 100px;
+  margin-left: 15%;
 }
