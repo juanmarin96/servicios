@@ -2023,3 +2023,140 @@ body {
   width: 100px;
   margin-left: 15%;
 }
+}
+.mobile-marketing {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .mobile-marketing {
+    max-width: 100%;
+  }
+}
+.mobile-marketing h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.mobile-marketing p {
+  color: black;
+}
+.content-img-mobile-marketing img {
+  width: 400px;
+}
+.email-marketing {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .email-marketing {
+    max-width: 100%;
+  }
+}
+.email-marketing h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.email-marketing p {
+  color: black;
+}
+.content-img-email-marketing img {
+  width: 400px;
+}
+.titulo-marcas {
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+.estrategia-marcas-blancas {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .estrategia-marcas-blancas {
+    max-width: 100%;
+  }
+}
+.estrategia-marcas-blancas h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.estrategia-marcas-blancas p {
+  color: black;
+}
+.cita-marcas {
+  left: -10px;
+  text-align: right;
+  position: relative;
+}
+.cita-marcas span {
+  font-weight: bold;
+  color: black;
+}
+.cita-marcas p {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.texto-estrategia-marcas {
+  color: black;
+}
+.img-flor-marca {
+  width: 190px;
+}
+@media screen and (max-width: 535px) {
+  .img-flor-marca {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1340px) and (min-width: 990px) {
+  .img-flor-marca {
+    width: 138px;
+  }
+}
+.grayest-m {
+  filter: grayscale(100%);
+}
+.flor-marcas #marca-flor-6 {
+  margin-top: 40%;
+  margin-left: 50%;
+}
+.flor-marcas #marca-flor-6:hover {
+  filter: grayscale(0%);
+}
+.flor-marcas #marca-flor-1 {
+  margin-top: -20%;
+  margin-left: 50%;
+}
+.flor-marcas #marca-flor-5 {
+  margin-left: 122%;
+  margin-top: -140%;
+}
+.flor-marcas #marca-flor-5:hover {
+  filter: grayscale(0%);
+}
+.flor-marcas #marca-flor-7 {
+  margin-left: -22%;
+  margin-top: -100%;
+}
+.flor-marcas #marca-flor-7:hover {
+  filter: grayscale(0%);
+}
+.flor-marcas #marca-flor-2 {
+  margin-left: -18%;
+  margin-top: -20%;
+}
+.flor-marcas #marca-flor-2:hover {
+  filter: grayscale(0%);
+}
+.flor-marcas #marca-flor-3 {
+  margin-left: 124%;
+  margin-top: -97%;
+}
+.flor-marcas #marca-flor-3:hover {
+  filter: grayscale(0%);
+}
+.flor-marcas #marca-flor-4 {
+  margin-left: 50%;
+  margin-top: -60%;
+}
+.flor-marcas #marca-flor-4:hover {
+  filter: grayscale(0%);
+}
