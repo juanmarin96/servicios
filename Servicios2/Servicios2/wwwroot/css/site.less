@@ -2,7 +2,11 @@
     font-family: FuturaStd-MediumOblique;
     src: url("~/Fuentes/FuturaStd-MediumOblique.otf");
 }
-
+@media screen and (max-width: 992px) {
+    .material-icons:not(.nomarg) {
+        margin-left: 10px;
+    }
+}
 body {
     font-family: FuturaStd-MediumOblique;
     padding-bottom: 20px;
@@ -2378,5 +2382,14 @@ body {
         font-size: 30px;
         font-weight: bold;
         color: black;
+    }
+}
+
+.table-serv {
+    margin-top: 10px;
+
+    tbody > tr > td {
+        border: none;
+        color: #f9f9f9;
     }
 }
