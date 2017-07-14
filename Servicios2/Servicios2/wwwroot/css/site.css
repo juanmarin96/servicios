@@ -1033,15 +1033,15 @@ body {
   filter: grayscale(0%);
 }
 .flor-estrategia #imagen-flor-2 {
-  margin-left: -18%;
-  margin-top: -20%;
+  margin-left: -21%;
+  margin-top: -18%;
 }
 .flor-estrategia #imagen-flor-2:hover {
   filter: grayscale(0%);
 }
 .flor-estrategia #imagen-flor-3 {
-  margin-left: 124%;
-  margin-top: -97%;
+  margin-left: 122%;
+  margin-top: -101%;
 }
 .flor-estrategia #imagen-flor-3:hover {
   filter: grayscale(0%);
@@ -1819,14 +1819,6 @@ body {
 .search .title {
   color: #ff6e40;
 }
-.analytic {
-  margin-top: 180px;
-}
-@media screen and (max-width: 815px) {
-  .analytic {
-    margin-top: 5px;
-  }
-}
 .img-google img {
   width: 400px;
 }
@@ -2023,7 +2015,6 @@ body {
   width: 100px;
   margin-left: 15%;
 }
-}
 .mobile-marketing {
   max-width: 350px;
 }
@@ -2127,36 +2118,114 @@ body {
 }
 .flor-marcas #marca-flor-5 {
   margin-left: 122%;
-  margin-top: -140%;
+  margin-top: -135%;
 }
 .flor-marcas #marca-flor-5:hover {
   filter: grayscale(0%);
 }
 .flor-marcas #marca-flor-7 {
   margin-left: -22%;
-  margin-top: -100%;
+  margin-top: -94%;
 }
 .flor-marcas #marca-flor-7:hover {
   filter: grayscale(0%);
 }
 .flor-marcas #marca-flor-2 {
-  margin-left: -18%;
-  margin-top: -20%;
+  margin-left: -22%;
+  margin-top: -18%;
 }
 .flor-marcas #marca-flor-2:hover {
   filter: grayscale(0%);
 }
 .flor-marcas #marca-flor-3 {
-  margin-left: 124%;
-  margin-top: -97%;
+  margin-left: 122%;
+  margin-top: -102%;
 }
 .flor-marcas #marca-flor-3:hover {
   filter: grayscale(0%);
 }
 .flor-marcas #marca-flor-4 {
   margin-left: 50%;
-  margin-top: -60%;
+  margin-top: -53%;
 }
 .flor-marcas #marca-flor-4:hover {
   filter: grayscale(0%);
+}
+.cita-bajo-marcas {
+  margin-top: -20px;
+  max-width: 360px;
+  text-align: left;
+}
+@media screen and (max-width: 989px) {
+  .cita-bajo-marcas {
+    max-width: 100%;
+  }
+}
+.cita-bajo-marcas span {
+  font-weight: bold;
+  color: black;
+}
+.cita-bajo-marcas p {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.texto-journey {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .texto-journey {
+    max-width: 100%;
+  }
+}
+.texto-journey h3 {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.texto-journey p {
+  color: black;
+}
+.img-phanton {
+  width: 300px;
+  margin-left: 210px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 1100px) and (min-width: 990px) {
+  .img-phanton {
+    margin-left: 116px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 889px) {
+  .img-phanton {
+    margin-left: 5px;
+  }
+}
+.phantom-cita {
+  text-align: right;
+}
+.phantom-cita span {
+  font-weight: bold;
+  color: black;
+}
+.phantom-cita p {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: right;
+}
+.cita-latam {
+  left: -10px;
+  text-align: right;
+  position: absolute;
+  margin-top: 360px;
+}
+.cita-latam span {
+  font-weight: bold;
+  color: black;
+}
+.cita-latam p {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
 }
