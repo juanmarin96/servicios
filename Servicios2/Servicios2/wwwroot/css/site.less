@@ -192,6 +192,7 @@ body {
 }
 
 .titulo-encab {
+    display: inline;
     color: #ffab40;
     font-weight: bold;
     font-size: 35px;
@@ -212,11 +213,49 @@ body {
     }
 }
 
+.flecha-servicios {
+    display: inline;
+    color: white;
+    font-size: 30px;
+    background: #448aff;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    margin-left: 15px;
+}
+
+.flecha-servicios-2 {
+    display: inline;
+    color: white;
+    font-size: 60px;
+    background: #448aff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 350px;
+    margin-left: 180%;
+
+    @media screen and (max-width:@screen-md-max) {
+        bottom: 310px;
+        margin-left: 80%;
+    }
+
+    @media screen and (max-width:710px) {
+        font-size: 30px;
+        bottom: 140px;
+        margin-left: 40%;
+    }
+
+    @media screen and (max-width:500px) {
+        font-size: 20px;
+        bottom: 71px;
+        margin-left: 40%;
+    }
+}
+
 
 .algo-emocional {
-    position: relative;
-    left: 920px;
-    bottom: 140px;
+    margin-left: 65%;
+    margin-top: -46%;
 
     h3 {
         position: relative;
@@ -281,37 +320,55 @@ body {
     filter: grayscale(100%);
 }
 
-.img-innovacion {
+.cuadros-serv {
+    width: 600px;
     position: relative;
-    width: 230px;
-    left: 448px;
+    top: 90px;
+    margin-top: -50%;
+    margin-left: -11%;
 
-    @media screen and (max-width: 430px) {
-        position: relative;
-        width: 110px;
-        top: 72px;
-        left: 85px;
+    @media screen and (max-width: @screen-md-max) {
+        visibility: hidden;
     }
+}
 
-    @media screen and (max-width: @screen-xs-max) and (min-width: 429px) {
-        position: relative;
-        width: 130px;
-        top: 70px;
-        left: 150px;
+.cuadros-serv-2 {
+    width: 600px;
+    margin-left: 50%;
+
+    @media screen and (max-width: @screen-sm-max) {
+        visibility: hidden;
     }
+}
 
-    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
-        position: relative;
+
+.tamano-flor {
+    width: 200px;
+
+    @media screen and (max-width: 1200px) {
         width: 180px;
-        top: 73px;
-        left: 147px;
     }
 
-    @media screen and (max-width: @screen-sm-max) and (min-width: 649px) {
-        position: relative;
-        width: 190px;
-        top: 70px;
-        left: 247px;
+    @media screen and (max-width:710px) {
+        width: 100px;
+    }
+
+    @media screen and (max-width:500px) {
+        width: 50px;
+    }
+}
+
+.img-innovacion {
+    margin-top: -15%;
+    margin-left: 30%;
+
+    @media screen and (max-width: 1200px) {
+        margin-top: -55%;
+    }
+
+    @media screen and (max-width:@screen-md-max) {
+        margin-top: 0%;
+        margin-left: 90%;
     }
 
     &:hover {
@@ -320,37 +377,11 @@ body {
 }
 
 .img-estrategia {
-    position: relative;
-    width: 230px;
-    left: 270px;
-    bottom: 135px;
+    margin-top: -56%;
+    margin-left: -51%;
 
-    @media screen and (max-width: 430px) {
-        position: relative;
-        width: 110px;
-        top: 10px;
-        left: 0px;
-    }
-
-    @media screen and (max-width: @screen-xs-max) and (min-width: 429px) {
-        position: relative;
-        width: 130px;
-        top: 0px;
-        left: 45px;
-    }
-
-    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
-        position: relative;
-        width: 180px;
-        bottom: 30px;
-        left: 10px;
-    }
-
-    @media screen and (max-width: @screen-sm-max) and (min-width: 649px) {
-        position: relative;
-        width: 190px;
-        bottom: 40px;
-        left: 105px;
+    @media screen and (max-width:@screen-md-max) {
+        margin-left: 9%;
     }
 
     &:hover {
@@ -361,37 +392,11 @@ body {
 
 
 .img-marketing-mix {
-    position: relative;
-    width: 230px;
-    left: 270px;
-    bottom: 160px;
+    margin-top: -56%;
+    margin-left: -53%;
 
-    @media screen and (max-width: 430px) {
-        position: relative;
-        width: 110px;
-        bottom: 2px;
-        left: 0px;
-    }
-
-    @media screen and (max-width: @screen-xs-max) and (min-width:429px) {
-        position: relative;
-        width: 130px;
-        bottom: 12px;
-        left: 45px;
-    }
-
-    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
-        position: relative;
-        width: 180px;
-        bottom: 50px;
-        left: 10px;
-    }
-
-    @media screen and (max-width: @screen-sm-max) and (min-width: 649px) {
-        position: relative;
-        width: 190px;
-        bottom: 65px;
-        left: 105px;
+    @media screen and (max-width:@screen-md-max) {
+        margin-left: 7%;
     }
 
     &:hover {
@@ -400,37 +405,11 @@ body {
 }
 
 .img-shopper {
-    position: relative;
-    width: 230px;
-    left: 450px;
-    bottom: 283px;
+    margin-top: -45%;
+    margin-left: 30%;
 
-    @media screen and (max-width: 430px) {
-        position: relative;
-        width: 110px;
-        bottom: 60px;
-        left: 86px;
-    }
-
-    @media screen and (max-width: @screen-xs-max) and (min-width:429px) {
-        position: relative;
-        width: 130px;
-        bottom: 80px;
-        left: 150px;
-    }
-
-    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
-        position: relative;
-        width: 180px;
-        bottom: 145px;
-        left: 150px;
-    }
-
-    @media screen and (max-width: @screen-sm-max) and (min-width:649px) {
-        position: relative;
-        width: 190px;
-        bottom: 167px;
-        left: 250px;
+    @media screen and (max-width:@screen-md-max) {
+        margin-left: 90%;
     }
 
     &:hover {
@@ -439,37 +418,11 @@ body {
 }
 
 .img-cmr {
-    position: relative;
-    width: 230px;
-    left: 630px;
-    bottom: 620px;
+    margin-top: -100%;
+    margin-left: 114%;
 
-    @media screen and (max-width: 430px) {
-        position: relative;
-        width: 110px;
-        bottom: 220px;
-        left: 170px;
-    }
-
-    @media screen and (max-width: @screen-xs-max) and (min-width:429px) {
-        position: relative;
-        width: 130px;
-        bottom: 270px;
-        left: 256px;
-    }
-
-    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
-        position: relative;
-        width: 180px;
-        bottom: 409px;
-        left: 290px;
-    }
-
-    @media screen and (max-width: @screen-sm-max) and (min-width:649px) {
-        position: relative;
-        width: 190px;
-        bottom: 445px;
-        left: 395px;
+    @media screen and (max-width:@screen-md-max) {
+        margin-left: 174%;
     }
 
     &:hover {
@@ -478,37 +431,11 @@ body {
 }
 
 .img-neuromarketing {
-    position: relative;
-    width: 230px;
-    left: 628px;
-    bottom: 1053px;
+    margin-top: -100%;
+    margin-left: 110%;
 
-    @media screen and (max-width: 430px) {
-        position: relative;
-        width: 110px;
-        bottom: 430px;
-        left: 169px;
-    }
-
-    @media screen and (max-width: @screen-xs-max) and (min-width: 429px) {
-        position: relative;
-        width: 130px;
-        bottom: 520px;
-        left: 256px;
-    }
-
-    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
-        position: relative;
-        width: 180px;
-        bottom: 749px;
-        left: 285px;
-    }
-
-    @media screen and (max-width: @screen-sm-max) and (min-width:649px) {
-        position: relative;
-        width: 190px;
-        bottom: 800px;
-        left: 390px;
+    @media screen and (max-width:@screen-md-max) {
+        margin-left: 170%;
     }
 
     &:hover {
@@ -517,73 +444,11 @@ body {
 }
 
 .img-logo {
-    position: relative;
-    width: 210px;
-    left: 458px;
-    bottom: 1170px;
+    margin-top: -50%;
+    margin-left: 30%;
 
-    @media screen and (max-width: 430px) {
-        position: relative;
-        width: 100px;
-        bottom: 486px;
-        left: 89px;
-    }
-
-    @media screen and (max-width: @screen-xs-max) and (min-width: 429px) {
-        position: relative;
-        width: 130px;
-        bottom: 592px;
-        left: 150px;
-    }
-
-    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
-        position: relative;
-        width: 160px;
-        bottom: 839px;
-        left: 157px;
-    }
-
-    @media screen and (max-width: @screen-sm-max) and (min-width:649px) {
-        position: relative;
-        width: 170px;
-        bottom: 896px;
-        left: 257px;
-    }
-}
-
-.flor {
-    position: relative;
-    max-height: 650px;
-    bottom: 210px;
-    left: 40px;
-
-    @media screen and (max-width: 430px) {
-        max-height: 200px;
-        bottom: 230px;
-        left: -10px;
-    }
-
-    @media screen and (max-width: @screen-xs-max) and (min-width: 429px) {
-        max-height: 300px;
-        bottom: 230px;
-        left: -40px;
-    }
-
-    @media screen and (max-width: 650px) and (min-width: @screen-sm-min) {
-        max-height: 400px;
-        bottom: 230px;
-        left: 0px;
-    }
-
-    @media screen and (max-width: @screen-sm-max) and (min-width: 649px) {
-        max-height: 400px;
-        bottom: 230px;
-        left: 0px;
-    }
-
-    @media screen and (max-width: @screen-md-max) and (min-width:@screen-md-min) {
-        bottom: 150px;
-        left: -120px;
+    @media screen and (max-width:@screen-md-max) {
+        margin-left: 90%;
     }
 }
 
@@ -591,21 +456,47 @@ body {
     h1 {
         color: #ffffff;
         font-weight: bold;
-        font-size: 60px;
+        font-size: 70px;
+        position: relative;
+        top: 50px;
+    }
+
+    @media screen and (max-width: 1260px) {
+        h1 {
+            top: 0px;
+        }
     }
 
     @media screen and (max-width: @screen-xs-max) {
         h1 {
             font-size: 50px;
+            top: 0px;
         }
     }
 }
 
 #div-equipo {
     height: 1350px;
+    margin-top: -5%;
+
+    @media screen and (max-width: 1260px) and (min-width: 1200px) {
+        height: 2350px;
+        margin-top: -23%;
+    }
+
+    @media screen and (max-width: 1199px) {
+        height: 2350px;
+        margin-top: 0%;
+    }
+}
+
+.titulo-equipo {
+    width: 500px;
+    margin-top: -18%;
+    margin-left: -3%;
 
     @media screen and (max-width: 1260px) {
-        height: 2350px;
+        visibility: hidden;
     }
 }
 
@@ -1119,10 +1010,16 @@ body {
 }
 
 .estrategia-blanca {
+    position: relative;
     background-color: white;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .menu-estrategia {
@@ -1595,6 +1492,15 @@ body {
     }
 }
 
+.borde-insights {
+    width: 80%;
+    height: 2000px;
+    margin-left: 59%;
+
+    @media screen and (max-width: 1290px) {
+        visibility: hidden;
+    }
+} 
 
 #tamano-sombrero {
     width: 190px;
@@ -1620,7 +1526,7 @@ body {
 .sombrero-lineas {
     width: 470px;
     position: relative;
-    bottom: 120px;
+    bottom: 115px;
     left: 590px;
 
     @media screen and (max-width: 1200px) and (min-width:990px) {
@@ -1708,7 +1614,7 @@ body {
 }
 
 .sombrero-negro {
-    margin-top: -49%;
+    margin-top: -45%;
     margin-left: 157%;
 
     @media screen and (max-width: 989px) and (min-width:@screen-sm-min) {
@@ -1721,7 +1627,7 @@ body {
 }
 
 .sombrero-amarillo {
-    margin-top: -50%;
+    margin-top: -54%;
     margin-left: 78%;
 
     @media screen and (max-width: 989px) and (min-width:@screen-sm-min) {
@@ -1732,6 +1638,27 @@ body {
         margin-left: -2%;
     }
 }
+
+.sombreros-sombra {
+    width: 400px;
+    margin-top: -30%;
+    margin-left: -20%;
+
+    @media screen and (max-width: 1200px) {
+        visibility: hidden;
+    }   
+}
+
+.sombreros-sombra-2 {
+    width: 300px;
+    margin-top: -27%;
+    margin-left: 90%;
+
+    @media screen and (max-width: 1290px) {
+        visibility: hidden;
+    }
+}
+
 .modelo {
 
     h4 {
@@ -1757,6 +1684,12 @@ body {
 
 .img-modelo {
     width: 500px;
+}
+
+.img-82 {
+    width: 670px;
+    margin-left: -10%;
+    margin-top: -47%;
 }
 
 .img-embudo {
@@ -1803,6 +1736,11 @@ body {
 
 .grayomni{
     filter: grayscale(100%);
+}
+
+.triangulos-trasparentes {
+    margin-top: -30%;
+    margin-left: -8%;
 }
 
 .online {
@@ -1922,7 +1860,8 @@ body {
 
     @media screen and (max-width: 989px) {
         margin-top: 6%;
-        margin-left: 22%;
+        margin-left: 0%;
+        width: 500px;
     }
 }
 
@@ -2169,7 +2108,7 @@ body {
 }
 
 #buenasp {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 10%;
     max-width: 200px;
 
