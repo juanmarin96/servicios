@@ -1342,8 +1342,8 @@ body {
 }
 .borde-insights {
   width: 80%;
-  height: 2000px;
-  margin-left: 59%;
+  height: 2200px;
+  float: right;
 }
 @media screen and (max-width: 1290px) {
   .borde-insights {
@@ -1351,7 +1351,7 @@ body {
   }
 }
 #tamano-sombrero {
-  width: 190px;
+  width: 170px;
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   #tamano-sombrero {
@@ -1374,16 +1374,16 @@ body {
   }
 }
 .sombrero-lineas {
-  width: 470px;
+  width: 350px;
   position: relative;
-  bottom: 115px;
+  bottom: 120px;
   left: 590px;
 }
 @media screen and (max-width: 1200px) and (min-width: 990px) {
   .sombrero-lineas {
-    width: 390px;
+    width: 350px;
     bottom: 100px;
-    left: 500px;
+    left: 560px;
   }
 }
 @media screen and (max-width: 989px) and (min-width: 750px) {
@@ -1403,13 +1403,13 @@ body {
 @media screen and (max-width: 535px) {
   .sombrero-lineas {
     width: 100px;
-    top: 25px;
+    top: 24px;
     left: 140px;
   }
 }
 .sombrero-blanco {
-  margin-top: -260%;
-  margin-left: 235%;
+  margin-top: -255%;
+  margin-left: 275%;
 }
 @media screen and (max-width: 989px) and (min-width: 750px) {
   .sombrero-blanco {
@@ -1431,7 +1431,7 @@ body {
 }
 .sombrero-rojo {
   margin-top: -49%;
-  margin-left: 157%;
+  margin-left: 197%;
 }
 @media screen and (max-width: 989px) and (min-width: 536px) {
   .sombrero-rojo {
@@ -1445,7 +1445,7 @@ body {
 }
 .sombrero-verde {
   margin-top: -49%;
-  margin-left: 235%;
+  margin-left: 275%;
 }
 @media screen and (max-width: 989px) and (min-width: 536px) {
   .sombrero-verde {
@@ -1459,7 +1459,7 @@ body {
 }
 .sombrero-azul {
   margin-top: -96%;
-  margin-left: 78%;
+  margin-left: 118%;
 }
 @media screen and (max-width: 989px) and (min-width: 536px) {
   .sombrero-azul {
@@ -1473,7 +1473,7 @@ body {
 }
 .sombrero-negro {
   margin-top: -45%;
-  margin-left: 157%;
+  margin-left: 197%;
 }
 @media screen and (max-width: 989px) and (min-width: 536px) {
   .sombrero-negro {
@@ -1487,7 +1487,7 @@ body {
 }
 .sombrero-amarillo {
   margin-top: -54%;
-  margin-left: 78%;
+  margin-left: 118%;
 }
 @media screen and (max-width: 989px) and (min-width: 536px) {
   .sombrero-amarillo {
@@ -1499,10 +1499,14 @@ body {
     margin-left: -2%;
   }
 }
+.sombreros {
+  margin-left: 0%;
+}
 .sombreros-sombra {
-  width: 400px;
-  margin-top: -30%;
-  margin-left: -20%;
+  width: 250px;
+  margin-top: -15%;
+  float: left;
+  margin-left: -2%;
 }
 @media screen and (max-width: 1200px) {
   .sombreros-sombra {
@@ -1510,8 +1514,8 @@ body {
   }
 }
 .sombreros-sombra-2 {
-  width: 300px;
-  margin-top: -27%;
+  width: 200px;
+  margin-top: -25%;
   margin-left: 90%;
 }
 @media screen and (max-width: 1290px) {
@@ -1539,8 +1543,8 @@ body {
   width: 500px;
 }
 .img-82 {
-  width: 670px;
-  margin-left: -10%;
+  width: 600px;
+  float: left;
   margin-top: -47%;
 }
 .img-embudo {

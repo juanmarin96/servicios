@@ -9,7 +9,6 @@
             $('.menu').removeClass('navbar-fixed-top');
         }
     });
-
 });*/
 
 posicionarMenu();
@@ -38,7 +37,7 @@ $(document).ready(function () {
 });
 
 
-//barra de navegacion fija scroll
+//barra de navegacion fija
 posicionarBarra();
 
 $(window).scroll(function () {
@@ -46,7 +45,7 @@ $(window).scroll(function () {
 });
 
 function posicionarBarra() {
-    var altura_iconos = $('.iconos').offset().top;
+    var altura_iconos = $('.iconos').position().top;
     var altura_nav = $('.iconos-nav').outerHeight(true);
 
     if ($(window).scrollTop() >= altura_iconos) {
