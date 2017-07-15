@@ -1272,11 +1272,24 @@ body {
 .exploramos img {
   width: 270px;
 }
-.exploramos .par {
+.top-tres {
+  padding-top: 65px;
+}
+.top-tres .par {
   font-weight: bold;
   color: #ff6e40;
 }
-.exploramos p {
+.top-tres p {
+  color: black;
+}
+.top-tres1 {
+  padding-top: 75px;
+}
+.top-tres1 .par {
+  font-weight: bold;
+  color: #ff6e40;
+}
+.top-tres1 p {
   color: black;
 }
 .cazamos img {
@@ -1991,7 +2004,8 @@ body {
   color: black;
 }
 .cita-marcas {
-  left: -10px;
+  max-width: 330px;
+  left: 20px;
   text-align: right;
   position: relative;
 }
@@ -2007,6 +2021,13 @@ body {
 }
 .texto-estrategia-marcas {
   color: black;
+  max-width: 330px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 989px) {
+  .texto-estrategia-marcas {
+    max-width: 100%;
+  }
 }
 .img-flor-marca {
   width: 190px;

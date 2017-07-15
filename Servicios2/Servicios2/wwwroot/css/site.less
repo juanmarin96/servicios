@@ -1402,6 +1402,20 @@ body {
     img {
         width: 270px;
     }
+}
+.top-tres {
+    padding-top:65px;
+    .par {
+        font-weight: bold;
+        color: #ff6e40;
+    }
+
+    p {
+        color: black;
+    }
+}
+.top-tres1 {
+    padding-top: 75px;
 
     .par {
         font-weight: bold;
@@ -1412,7 +1426,6 @@ body {
         color: black;
     }
 }
-
 .cazamos {
     img {
         width: 270px;
@@ -2201,7 +2214,8 @@ body {
     }
 }
 .cita-marcas {
-    left: -10px;
+    max-width: 330px;
+    left: 20px;
     text-align: right;
     position: relative;
 
@@ -2219,7 +2233,12 @@ body {
 }
 .texto-estrategia-marcas {
     color: black;
+    max-width: 330px;
+    margin-left:30px;
 
+    @media screen and (max-width: 989px) {
+        max-width: 100%;
+    }
 }
 
 .img-flor-marca {
