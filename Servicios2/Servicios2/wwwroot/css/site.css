@@ -1000,10 +1000,6 @@ body {
 .crecimiento p {
   color: black;
 }
-.cita-crecimiento {
-  position: relative;
-  left: 40px;
-}
 .cita-crecimiento span {
   font-weight: bold;
   color: black;
@@ -1596,8 +1592,8 @@ body {
   filter: grayscale(100%);
 }
 .triangulos-trasparentes {
-  margin-top: -30%;
-  margin-left: -8%;
+  margin-top: -35%;
+  float: left;
 }
 .online {
   margin-top: 150%;
@@ -1711,12 +1707,10 @@ body {
 }
 .img-markonline {
   margin-top: 30%;
-  margin-left: 4%;
 }
 @media screen and (max-width: 989px) {
   .img-markonline {
     margin-top: 6%;
-    margin-left: 0%;
     width: 500px;
   }
 }
