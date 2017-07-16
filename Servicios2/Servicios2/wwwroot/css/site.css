@@ -1785,7 +1785,7 @@ body {
   width: 400px;
 }
 .cita-busines {
-  left: -10px;
+  float: right;
   text-align: right;
   position: relative;
 }
@@ -2008,8 +2008,9 @@ body {
   color: black;
 }
 .cita-marcas {
+  margin-bottom: 78px;
   max-width: 330px;
-  left: 20px;
+  float: right;
   text-align: right;
   position: relative;
 }
@@ -2019,7 +2020,7 @@ body {
 }
 .cita-marcas p {
   position: relative;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: black;
 }
@@ -2145,6 +2146,7 @@ body {
   }
 }
 .phantom-cita {
+  float: right;
   text-align: right;
 }
 .phantom-cita span {
@@ -2158,7 +2160,6 @@ body {
   text-align: right;
 }
 .cita-latam {
-  left: -10px;
   text-align: right;
   position: absolute;
   margin-top: 360px;
