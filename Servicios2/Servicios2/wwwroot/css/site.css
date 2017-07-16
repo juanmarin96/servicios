@@ -2175,3 +2175,148 @@ body {
   border: none;
   color: #f9f9f9;
 }
+#pricing-enumerado {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  #pricing-enumerado {
+    width: 100%;
+  }
+}
+#pricing-enumerado h4 {
+  display: inline;
+  font-weight: 100;
+  color: #ff6e40;
+}
+#pricing-enumerado p {
+  text-align: left;
+  position: relative;
+  display: inline;
+  margin-top: 0px;
+  color: black;
+}
+#tamano-pricing {
+  width: 180px;
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  #tamano-pricing {
+    position: relative;
+    width: 140px;
+  }
+}
+@media screen and (max-width: 989px) and (min-width: 536px) {
+  #tamano-pricing {
+    position: relative;
+    width: 190px;
+  }
+}
+@media screen and (max-width: 535px) {
+  #tamano-pricing {
+    width: 100px;
+  }
+}
+.pricing-listado {
+  max-width: 300px;
+}
+@media screen and (max-width: 992px) {
+  .pricing-listado {
+    width: 100%;
+  }
+}
+.graypri {
+  filter: grayscale(100%);
+}
+.pricing1 {
+  margin-top: 110%;
+  margin-left: -30%;
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .pricing1 {
+    margin-top: 170%;
+  }
+}
+@media screen and (max-width: 989px) {
+  .pricing1 {
+    margin-top: 30%;
+    margin-left: 0%;
+  }
+}
+.pricing1:hover {
+  filter: grayscale(0%);
+}
+.pricing2 {
+  margin-top: -135%;
+  margin-left: 113%;
+}
+@media screen and (max-width: 989px) {
+  .pricing2 {
+    margin-left: 140%;
+  }
+}
+.pricing2:hover {
+  filter: grayscale(0%);
+}
+.pricing3 {
+  margin-top: -50%;
+  margin-left: 41%;
+}
+@media screen and (max-width: 989px) {
+  .pricing3 {
+    margin-left: 70%;
+  }
+}
+#mandamientos-1 {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  #mandamientos-1 {
+    width: 100%;
+    margin-top: 0%;
+  }
+}
+#mandamientos-1 h4 {
+  display: inline;
+  font-weight: 100;
+  color: #ff6e40;
+}
+#mandamientos-1 p {
+  text-align: left;
+  position: relative;
+  display: inline;
+  margin-top: 0px;
+  color: black;
+}
+#mandamientos-1 img {
+  width: 100px;
+}
+#mandamientos-2 {
+  margin-left: 10%;
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  #mandamientos-2 {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+#mandamientos-2 h4 {
+  display: inline;
+  font-weight: 100;
+  color: #ff6e40;
+}
+#mandamientos-2 p {
+  text-align: left;
+  position: relative;
+  display: inline;
+  margin-top: 0px;
+  color: black;
+}
+#mandamientos-2 img {
+  width: 100px;
+  margin-left: 30%;
+}
+@media screen and (max-width: 992px) {
+  #mandamientos-2 img {
+    margin-left: 0%;
+  }
+}
