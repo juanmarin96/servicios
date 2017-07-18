@@ -2018,6 +2018,11 @@ body {
   font-weight: bold;
   color: black;
 }
+.cita-marcas h3 {
+  font-size: 12px;
+  color: black;
+  position: relative;
+}
 .texto-estrategia-marcas {
   color: black;
   max-width: 330px;
@@ -2174,4 +2179,50 @@ body {
 .table-serv tbody > tr > td {
   border: none;
   color: #f9f9f9;
+}
+.flor-branding #branding-flor-6 {
+  margin-top: 20%;
+  margin-left: 50%;
+}
+.flor-branding #branding-flor-6:hover {
+  filter: grayscale(0%);
+}
+.flor-branding #branding-flor-1 {
+  margin-top: -15%;
+  margin-left: 50%;
+}
+.flor-branding #branding-flor-5 {
+  margin-left: 122%;
+  margin-top: -133%;
+}
+.flor-branding #branding-flor-5:hover {
+  filter: grayscale(0%);
+}
+.flor-branding #branding-flor-7 {
+  margin-left: -22%;
+  margin-top: -85%;
+}
+.flor-branding #branding-flor-7:hover {
+  filter: grayscale(0%);
+}
+.flor-branding #branding-flor-2 {
+  margin-left: -22%;
+  margin-top: -18%;
+}
+.flor-branding #branding-flor-2:hover {
+  filter: grayscale(0%);
+}
+.flor-branding #branding-flor-3 {
+  margin-left: 122%;
+  margin-top: -12%;
+}
+.flor-branding #branding-flor-3:hover {
+  filter: grayscale(0%);
+}
+.flor-branding #branding-flor-4 {
+  margin-left: 50%;
+  margin-top: -50%;
+}
+.flor-branding #branding-flor-4:hover {
+  filter: grayscale(0%);
 }
