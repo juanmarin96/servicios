@@ -2421,3 +2421,25 @@ body {
 .flor-branding #branding-flor-4:hover {
   filter: grayscale(0%);
 }
+.titulo-serv-branding h4 {
+  color: #ff6e40;
+  font-size: 25px;
+}
+.titulo-serv-branding h3 {
+  color: #ff6e40;
+  font-weight: bold;
+}
+.servicios-branding {
+  max-width: 383px;
+}
+@media screen and (max-width: 989px) {
+  .servicios-branding {
+    width: 100%;
+  }
+}
+.servicios-branding h3 {
+  color: #ff6e40;
+}
+.servicios-branding p {
+  color: black;
+}
