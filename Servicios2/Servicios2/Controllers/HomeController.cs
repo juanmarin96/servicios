@@ -35,5 +35,10 @@ namespace Servicios2.Controllers
         {
             return View("Estrategia");
         }
+
+        public IActionResult Cmr()
+        {
+            return View("Cmr");
+        }
     }
 }
