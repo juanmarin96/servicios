@@ -2583,10 +2583,10 @@ body {
 .tamano-comun {
   width: 300px;
 }
-#comun-img1 {
+.comunidades-images #comun-img1 {
   margin-top: 40%;
 }
-#comun-img2 {
+.comunidades-images #comun-img2 {
   margin-top: -43%;
   margin-left: 63%;
 }
