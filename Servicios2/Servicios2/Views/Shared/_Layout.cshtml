@@ -19,7 +19,9 @@
     </environment>
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
-<body>
+@{ var cssclass = ViewBag.BodyCss != null ? "light" : "";}
+
+<body class="@cssclass">
     <div class="Cimagen">
         <img src="~/images/index.png" class="img-responsive" style="width:100%">
     </div>

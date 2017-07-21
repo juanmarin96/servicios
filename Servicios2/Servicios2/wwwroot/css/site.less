@@ -1,6 +1,15 @@
 ﻿@font-face {
-    font-family: FuturaStd-MediumOblique;
-    src: url("~/Fuentes/FuturaStd-MediumOblique.otf");
+    font-family: FuturaStd-Light;
+    src: url("../Fuentes/FuturaStd-Light.otf");
+}
+
+@font-face {
+    font-family: FuturaStd-Medium;
+    src: url("../Fuentes/FuturaStd-Medium.otf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: FuturaStd-Medium;
 }
 
 @media screen and (max-width: 992px) {
@@ -10,9 +19,14 @@
 }
 
 body {
-    font-family: FuturaStd-MediumOblique;
+    font-family: FuturaStd-Light;
     padding-bottom: 20px;
     background-color: #212121;
+    font-size: 18px;
+}
+
+body.light {
+    background-color: #fff;
 }
 
 /* Wrapping element */
