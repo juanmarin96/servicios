@@ -3167,7 +3167,7 @@ body {
 
     h2 {
 
-        @media screen and (max-width: @screen-xs-max) {
+        @media screen and (max-width: 300px) {
             font-size: 20px;
             margin-left: 15%;
         }
@@ -3191,25 +3191,39 @@ body {
 .lograr2 {
 
     h1 {
-        margin-left: 15%;
+        margin-left: 25%;
         font-size: 90px;
 
         @media screen and (max-width: @screen-md-max) and (min-width:@screen-sm-min) {
-            margin-left: 10%;
+            margin-left: 8%;
         }
 
         @media screen and (max-width: @screen-xs-max) {
             font-size: 60px;
+            margin-left: 20%;
         }
     }
 
     p {
         color: black;
         font-size: 15px;
-        margin-left: 10%;
+        margin-left: 20%;
 
         @media screen and (max-width: @screen-md-max) and (min-width:@screen-sm-min) {
             margin-left: 5%;
+        }
+
+        @media screen and (max-width: @screen-xs-max) {
+            margin-left: 10%;
+        }
+    }
+
+    img {
+        margin-left: 10%;
+
+
+        @media screen and (max-width: @screen-md-max) {
+            margin-left: 0%;
         }
     }
 }

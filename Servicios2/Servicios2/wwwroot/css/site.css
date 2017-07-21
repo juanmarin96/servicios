@@ -2824,7 +2824,7 @@ body {
     margin-left: 0%;
   }
 }
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 300px) {
   .lograr h2 {
     font-size: 20px;
     margin-left: 15%;
@@ -2844,21 +2844,42 @@ body {
   }
 }
 .lograr2 h1 {
-  margin-left: 15%;
+  margin-left: 25%;
   font-size: 90px;
 }
 @media screen and (max-width: 992px) and (min-width: 536px) {
   .lograr2 h1 {
-    margin-left: 10%;
+    margin-left: 8%;
   }
 }
 @media screen and (max-width: 535px) {
   .lograr2 h1 {
     font-size: 60px;
+    margin-left: 20%;
   }
 }
 .lograr2 p {
   color: black;
+  font-size: 15px;
+  margin-left: 20%;
+}
+@media screen and (max-width: 992px) and (min-width: 536px) {
+  .lograr2 p {
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 535px) {
+  .lograr2 p {
+    margin-left: 10%;
+  }
+}
+.lograr2 img {
+  margin-left: 10%;
+}
+@media screen and (max-width: 992px) {
+  .lograr2 img {
+    margin-left: 0%;
+  }
 }
 .imgs-flor-p {
   width: 176px;
