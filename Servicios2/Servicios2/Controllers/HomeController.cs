@@ -35,5 +35,9 @@ namespace Servicios2.Controllers
         {
             return View("Estrategia");
         }
+        public IActionResult Mix()
+        {
+            return View("Mix");
+        }
     }
 }

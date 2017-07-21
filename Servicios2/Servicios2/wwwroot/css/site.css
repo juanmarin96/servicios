@@ -2443,3 +2443,173 @@ body {
 .servicios-branding p {
   color: black;
 }
+.imgs-flor-p {
+  width: 176px;
+}
+@media screen and (max-width: 535px) {
+  .imgs-flor-p {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 990px) {
+  .imgs-flor-p {
+    width: 150px;
+  }
+}
+.flor-mix {
+  margin-left: 23%;
+}
+.flor-mix #mix-flor-6 {
+  margin-top: 50%;
+  margin-left: 50%;
+}
+.flor-mix #mix-flor-6:hover {
+  filter: grayscale(0%);
+}
+.flor-mix #mix-flor-1 {
+  margin-top: -5%;
+  margin-left: 50%;
+}
+.flor-mix #mix-flor-5 {
+  margin-left: 122%;
+  margin-top: -133%;
+}
+.flor-mix #mix-flor-5:hover {
+  filter: grayscale(0%);
+}
+.flor-mix #mix-flor-7 {
+  margin-left: -23%;
+  margin-top: -90%;
+}
+.flor-mix #mix-flor-7:hover {
+  filter: grayscale(0%);
+}
+.flor-mix #mix-flor-3 {
+  margin-left: 124%;
+  margin-top: -6%;
+}
+.flor-mix #mix-flor-3:hover {
+  filter: grayscale(0%);
+}
+.ico-mas-mix {
+  font-size: 35px;
+  color: black;
+  background: #7c4dff;
+  border-radius: 50%;
+  float: right;
+}
+@media screen and (max-width: 700px) {
+  .ico-der-mix {
+    margin-top: -30px;
+  }
+}
+.content-mix {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  background: white;
+}
+@media screen and (max-width: 600px) {
+  .flor-p {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 601px) {
+  .flor-p {
+    margin-left: 140px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .flor-p {
+    margin-bottom: 150px;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 700px) {
+  .flor-p {
+    margin-bottom: 270px;
+  }
+}
+.flor-p #p-flor-6 {
+  margin-top: 50%;
+  margin-left: 50%;
+}
+.flor-p #p-flor-6:hover {
+  filter: grayscale(0%);
+}
+.flor-p #p-flor-1 {
+  margin-top: -5%;
+  margin-left: 50%;
+}
+.flor-p #p-flor-5 {
+  margin-left: 122%;
+  margin-top: -133%;
+}
+.flor-p #p-flor-5:hover {
+  filter: grayscale(0%);
+}
+.flor-p #p-flor-7 {
+  margin-left: -23%;
+  margin-top: -90%;
+}
+.flor-p #p-flor-7:hover {
+  filter: grayscale(0%);
+}
+.flor-p #p-flor-3 {
+  margin-left: 193%;
+  margin-top: -133%;
+}
+.flor-p #p-flor-3:hover {
+  filter: grayscale(0%);
+}
+.flor-p #p-flor-4 {
+  margin-left: -96%;
+  margin-top: -89%;
+}
+.flor-p #p-flor-4:hover {
+  filter: grayscale(0%);
+}
+.flor-product {
+  width: 190px;
+}
+@media screen and (max-width: 600px) {
+  .flor-product {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 990px) and (min-width: 601px) {
+  .flor-product {
+    width: 140px;
+  }
+}
+.prom {
+  max-width: 390px;
+}
+@media screen and (max-width: 989px) {
+  .prom {
+    max-width: 100%;
+  }
+}
+.prom h2 {
+  color: #7c4dff;
+  font-weight: bold;
+}
+.texto-mix {
+  max-width: 360px;
+}
+@media screen and (max-width: 989px) {
+  .texto-mix {
+    max-width: 100%;
+  }
+}
+.texto-mix .normal {
+  color: black;
+}
+.texto-mix .morado {
+  color: #7c4dff;
+}
+.texto-mix h2 {
+  color: #7c4dff;
+  font-weight: bold;
+}
