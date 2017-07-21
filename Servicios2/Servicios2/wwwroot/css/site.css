@@ -2877,13 +2877,6 @@ body {
 .lograr2 p {
   color: black;
   font-size: 15px;
-  margin-left: 10%;
-}
-@media screen and (max-width: 992px) and (min-width: 536px) {
-  .lograr2 p {
-    margin-left: 5%;
-  }
-  font-size: 15px;
   margin-left: 20%;
 }
 @media screen and (max-width: 992px) and (min-width: 536px) {
