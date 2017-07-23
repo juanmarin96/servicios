@@ -163,6 +163,19 @@ body {
 .clientes-top {
   padding-top: 180px;
 }
+@media screen and (max-width: 535px) {
+  .como-r {
+    font-size: 50px;
+  }
+}
+.cont-x {
+  font-size: 70px;
+}
+@media screen and (max-width: 535px) {
+  .cont-x {
+    font-size: 30px;
+  }
+}
 .titulo-serv {
   margin-top: 40px;
   color: #ffffff;
@@ -2877,13 +2890,6 @@ body {
 .lograr2 p {
   color: black;
   font-size: 15px;
-  margin-left: 10%;
-}
-@media screen and (max-width: 992px) and (min-width: 536px) {
-  .lograr2 p {
-    margin-left: 5%;
-  }
-  font-size: 15px;
   margin-left: 20%;
 }
 @media screen and (max-width: 992px) and (min-width: 536px) {
@@ -3073,4 +3079,82 @@ body {
 .texto-mix h2 {
   color: #7c4dff;
   font-weight: bold;
+}
+.flor-inno {
+  margin-left: 28%;
+}
+@media screen and (max-width: 1900px) and (min-width: 800px) {
+  .flor-inno .img-inovation {
+    margin-top: 180px;
+  }
+}
+.ico-m-inno {
+  font-size: 35px;
+  color: black;
+  background: #fea338;
+  border-radius: 50%;
+}
+.texto-onovation {
+  max-width: 350px;
+}
+@media screen and (max-width: 989px) {
+  .texto-onovation {
+    max-width: 100%;
+  }
+}
+.texto-onovation h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffab40;
+}
+.texto-onovation p {
+  color: black;
+}
+.img-harvard {
+  width: 200px;
+  float: left;
+}
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  .img-harvard {
+    float: none;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 900px) {
+  .img-tres-onovation {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 900px) {
+  .ideacion {
+    margin-top: 100px;
+  }
+}
+.img-sobrero-onovation {
+  width: 150px;
+  float: left;
+}
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  .img-sobrero-onovation {
+    float: none;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 900px) {
+  .texto-inovation {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 900px) {
+  .div-content-somb {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 900px) {
+  .img-hakatones {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 1800px) and (min-width: 900px) {
+  .img-thinking {
+    margin-top: 65px;
+  }
 }
