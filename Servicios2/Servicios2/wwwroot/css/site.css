@@ -908,7 +908,7 @@ body {
   filter: grayscale(100%);
 }
 .flor-estrategia {
-  margin-left: 23%;
+  margin-left: 5%;
 }
 .flor-estrategia #imagen-flor-6 {
   margin-top: 40%;
@@ -3262,4 +3262,71 @@ body {
   .img-webrooming {
     margin-top: -100px;
   }
+}
+.img-flor-1 {
+  width: 190px;
+}
+@media screen and (max-width: 535px) {
+  .img-flor-1 {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .img-flor-1 {
+    width: 150px;
+  }
+}
+.flor-shopper {
+  margin-left: 5%;
+}
+.flor-shopper #imag-shopper-6 {
+  margin-top: 70%;
+  margin-left: 50%;
+}
+@media screen and (max-width: 992px) {
+  .flor-shopper #imag-shopper-6 {
+    margin-top: 10%;
+  }
+}
+.flor-shopper #imag-shopper-6:hover {
+  filter: grayscale(0%);
+}
+.flor-shopper #imag-shopper-1 {
+  margin-top: -5%;
+  margin-left: 50%;
+}
+.flor-shopper #imag-shopper-5 {
+  margin-left: 122%;
+  margin-top: -131%;
+}
+.flor-shopper #imag-shopper-5:hover {
+  filter: grayscale(0%);
+}
+.flor-shopper #imag-shopper-7 {
+  margin-left: -22%;
+  margin-top: -90%;
+}
+.flor-shopper #imag-shopper-7:hover {
+  filter: grayscale(0%);
+}
+.flor-shopper #imag-shopper-2 {
+  margin-left: -21%;
+  margin-top: -5%;
+}
+.flor-shopper #imag-shopper-2:hover {
+  filter: grayscale(0%);
+}
+.flor-shopper #imag-shopper-3 {
+  margin-left: 122%;
+  margin-top: -90%;
+}
+.flor-shopper #imag-shopper-3:hover {
+  filter: grayscale(0%);
+}
+.flor-shopper #imag-shopper-4 {
+  margin-left: 52%;
+  margin-top: -47%;
+}
+.flor-shopper #imag-shopper-4:hover {
+  filter: grayscale(0%);
 }
