@@ -3258,6 +3258,9 @@ body {
 .p-general {
   color: black;
 }
+.h3-general {
+  color: #40c4ff;
+}
 @media screen and (max-width: 1800px) and (min-width: 993px) {
   .img-webrooming {
     margin-top: -100px;
