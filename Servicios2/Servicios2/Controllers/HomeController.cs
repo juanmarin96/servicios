@@ -48,5 +48,9 @@ namespace Servicios2.Controllers
         {
             return View("Innovacion");
         }
+        public IActionResult Shopper()
+        {
+            return View("Shopper");
+        }
     }
 }
