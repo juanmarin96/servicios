@@ -3081,9 +3081,9 @@ body {
   font-weight: bold;
 }
 .flor-inno {
-  margin-left: 28%;
+  margin-left: 8%;
 }
-@media screen and (max-width: 1900px) and (min-width: 800px) {
+@media screen and (max-width: 1900px) and (min-width: 992px) {
   .flor-inno .img-inovation {
     margin-top: 180px;
   }
@@ -3260,6 +3260,7 @@ body {
 }
 .h3-general {
   color: #40c4ff;
+  font-weight: bold;
 }
 @media screen and (max-width: 1800px) and (min-width: 993px) {
   .img-webrooming {
