@@ -3081,9 +3081,9 @@ body {
   font-weight: bold;
 }
 .flor-inno {
-  margin-left: 28%;
+  margin-left: 8%;
 }
-@media screen and (max-width: 1900px) and (min-width: 800px) {
+@media screen and (max-width: 1900px) and (min-width: 992px) {
   .flor-inno .img-inovation {
     margin-top: 180px;
   }
