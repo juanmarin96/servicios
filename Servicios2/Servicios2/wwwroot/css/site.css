@@ -2924,7 +2924,7 @@ body {
   }
 }
 .flor-mix {
-  margin-left: 23%;
+  margin-left: 10%;
 }
 .flor-mix #mix-flor-6 {
   margin-top: 50%;
@@ -2977,6 +2977,14 @@ body {
   margin-right: 0px;
   width: 100%;
   background: white;
+}
+.flor-p {
+  margin-top: -10%;
+}
+@media screen and (max-width: 992px) {
+  .flor-p {
+    margin-top: 0%;
+  }
 }
 @media screen and (max-width: 600px) {
   .flor-p {
