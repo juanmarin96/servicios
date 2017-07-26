@@ -3355,3 +3355,72 @@ body {
     margin-top: -280px;
   }
 }
+#tamano-shopper {
+  width: 160px;
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  #tamano-shopper {
+    position: relative;
+    width: 130px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 536px) {
+  #tamano-shopper {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 535px) {
+  #tamano-shopper {
+    width: 100px;
+  }
+}
+.grayshopp1 {
+  filter: grayscale(100%);
+}
+.flor-shopper-1 .img43 {
+  margin-left: 73%;
+  margin-top: 10%;
+}
+.flor-shopper-1 .img43:hover {
+  filter: grayscale(0%);
+}
+.flor-shopper-1 .img41 {
+  margin-left: 0%;
+  margin-top: -50%;
+}
+.flor-shopper-1 .img41:hover {
+  filter: grayscale(0%);
+}
+.flor-shopper-1 .img44 {
+  margin-left: 147%;
+  margin-top: -90%;
+}
+.flor-shopper-1 .img44:hover {
+  filter: grayscale(0%);
+}
+.flor-shopper-1 .img18 {
+  margin-left: 75%;
+  margin-top: -45%;
+}
+.shopp-in {
+  margin-top: 55%;
+}
+@media screen and (max-width: 992px) {
+  .shopp-in {
+    margin-top: 0%;
+  }
+}
+#encab-omashop {
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  display: inline;
+}
+@media screen and (max-width: 535px) {
+  #encab-omashop {
+    font-size: 30px;
+  }
+}
+.omashopp-div {
+  margin-top: -120%;
+}
