@@ -3518,3 +3518,12 @@ body {
     margin-top: 10%;
   }
 }
+}
+.contenido-ultimo-shopper {
+  max-width: 460px;
+}
+@media screen and (max-width: 989px) {
+  .contenido-ultimo-shopper {
+    max-width: 100%;
+  }
+}
