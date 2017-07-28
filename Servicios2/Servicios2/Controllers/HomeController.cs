@@ -52,5 +52,9 @@ namespace Servicios2.Controllers
         {
             return View("Shopper");
         }
+        public IActionResult Neuromarketing()
+        {
+            return View("Neuromarketing");
+        }
     }
 }
