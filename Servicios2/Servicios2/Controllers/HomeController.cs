@@ -56,5 +56,9 @@ namespace Servicios2.Controllers
         {
             return View("Neuromarketing");
         }
+        public IActionResult Articuloblog()
+        {
+            return View("Articuloblog");
+        }
     }
 }
