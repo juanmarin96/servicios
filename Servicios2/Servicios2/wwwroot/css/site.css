@@ -3554,3 +3554,95 @@ body {
   background-color: #424242;
   border: 1px solid #212121;
 }
+.equipo-vista h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 70px;
+  margin-top: 11%;
+}
+@media screen and (max-width: 535px) {
+  .equipo-vista h1 {
+    font-size: 50px;
+  }
+}
+.equipo-img-1 {
+  margin-top: -5%;
+}
+.equipo-img-1:hover {
+  filter: grayscale(100%);
+}
+@media screen and (max-width: 1200px) {
+  .equipo-img-1 {
+    margin-top: 0%;
+  }
+}
+.equipo-nombre-1 {
+  margin-top: 17%;
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  .equipo-nombre-1 {
+    margin-top: 7%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .equipo-nombre-1 {
+    margin-top: 0%;
+  }
+}
+.graycomo {
+  filter: grayscale(100%);
+}
+.imgs-flor-como {
+  width: 160px;
+}
+@media screen and (max-width: 535px) {
+  .imgs-flor-como {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+  .imgs-flor-como {
+    width: 130px;
+  }
+}
+.flor-como {
+  margin-left: 10%;
+  margin-top: 30%;
+}
+@media screen and (max-width: 992px) {
+  .flor-como {
+    margin-top: -5%;
+  }
+}
+.flor-como #como-flor-6 {
+  margin-top: 50%;
+  margin-left: 60%;
+}
+.flor-como #como-flor-6:hover {
+  filter: grayscale(0%);
+}
+.flor-como #como-flor-1 {
+  margin-top: 5%;
+  margin-left: 60%;
+}
+.flor-como #como-flor-5 {
+  margin-left: 142%;
+  margin-top: -140%;
+}
+.flor-como #como-flor-5:hover {
+  filter: grayscale(0%);
+}
+.flor-como #como-flor-7 {
+  margin-left: -24%;
+  margin-top: -95%;
+}
+.flor-como #como-flor-7:hover {
+  filter: grayscale(0%);
+}
+.flor-como #como-flor-3 {
+  margin-left: 144%;
+  margin-top: 7%;
+}
+.flor-como #como-flor-3:hover {
+  filter: grayscale(0%);
+}

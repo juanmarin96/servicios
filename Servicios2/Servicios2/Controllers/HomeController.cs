@@ -64,5 +64,15 @@ namespace Servicios2.Controllers
         {
             return View("DirectorioBlog");
         }
+
+        public IActionResult Equipo()
+        {
+            return View("Equipo");
+        }
+
+        public IActionResult ComoFunciona()
+        {
+            return View("ComoFunciona");
+        }
     }
 }
