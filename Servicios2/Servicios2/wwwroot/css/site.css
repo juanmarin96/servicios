@@ -3518,15 +3518,6 @@ body {
     margin-top: 10%;
   }
 }
-}
-.contenido-ultimo-shopper {
-  max-width: 460px;
-}
-@media screen and (max-width: 989px) {
-  .contenido-ultimo-shopper {
-    max-width: 100%;
-  }
-}
 /* enable absolute positioning */
 .inner-addon {
   position: relative;
@@ -3558,4 +3549,8 @@ body {
 .color-input::-webkit-input-placeholder {
   color: #66666d;
   font-weight: bold;
+}
+.color-input-2 {
+  background-color: #424242;
+  border: 1px solid #212121;
 }

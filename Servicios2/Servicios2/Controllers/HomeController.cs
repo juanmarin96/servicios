@@ -60,5 +60,9 @@ namespace Servicios2.Controllers
         {
             return View("Articuloblog");
         }
+        public IActionResult DirectorioBlog()
+        {
+            return View("DirectorioBlog");
+        }
     }
 }
