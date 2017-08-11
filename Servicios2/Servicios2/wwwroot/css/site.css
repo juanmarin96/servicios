@@ -2712,13 +2712,43 @@ body {
 .img9pasos {
   margin-top: -20%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .img9pasos {
     margin-top: 0%;
   }
 }
 .nueve-pasos {
   margin-top: 12%;
+}
+.img-56 {
+  float: right;
+  margin-top: 20%;
+}
+@media screen and (max-width: 992px) {
+  .img-56 {
+    float: left;
+    margin-top: 0%;
+  }
+}
+.img-57 {
+  float: right;
+  margin-top: 5%;
+}
+@media screen and (max-width: 992px) {
+  .img-57 {
+    margin-top: 10%;
+    float: left;
+  }
+}
+.img-58 {
+  float: right;
+  margin-top: 20%;
+}
+@media screen and (max-width: 992px) {
+  .img-58 {
+    margin-top: 10%;
+    float: left;
+  }
 }
 .listado-segundopaso h3 {
   color: #a0df58;
@@ -2744,10 +2774,76 @@ body {
 }
 .segundo-paso {
   margin-top: 10%;
+  margin-left: -110%;
 }
 @media screen and (max-width: 992px) {
   .segundo-paso {
     margin-top: 0%;
+    margin-left: 0%;
+  }
+}
+.tercer-paso h1 {
+  margin-top: 34%;
+}
+@media screen and (max-width: 992px) {
+  .tercer-paso h1 {
+    margin-top: 5%;
+  }
+}
+.cuarto-paso {
+  margin-top: -40%;
+}
+@media screen and (max-width: 992px) {
+  .cuarto-paso {
+    margin-top: 6%;
+    margin-left: 0%;
+  }
+}
+.quinto-paso {
+  margin-top: 5%;
+  margin-left: -50%;
+}
+@media screen and (max-width: 992px) {
+  .quinto-paso {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+}
+.septimo-paso {
+  margin-top: -35%;
+}
+@media screen and (max-width: 992px) {
+  .septimo-paso {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+}
+.octavo-paso {
+  margin-top: -5%;
+}
+@media screen and (max-width: 992px) {
+  .octavo-paso {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+}
+.img-33 {
+  margin-top: 10%;
+}
+.pasos-cuatro {
+  margin-top: 20%;
+}
+@media screen and (max-width: 992px) {
+  .pasos-cuatro {
+    margin-top: 5%;
+  }
+}
+.pasos-sexto {
+  margin-top: -5%;
+}
+@media screen and (max-width: 992px) {
+  .pasos-sexto {
+    margin-top: 5%;
   }
 }
 .cm-marketing {
