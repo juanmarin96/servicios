@@ -223,27 +223,34 @@ body {
   background: #448aff;
   border-radius: 50%;
   position: relative;
-  bottom: 350px;
-  margin-left: 180%;
+  top: 220px;
+  margin-left: 70%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) and (min-width: 992px) {
   .flecha-servicios-2 {
-    bottom: 310px;
+    top: 100px;
     margin-left: 80%;
   }
 }
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 991px) and (min-width: 711px) {
+  .flecha-servicios-2 {
+    font-size: 60px;
+    top: 220px;
+    left: 220px;
+  }
+}
+@media screen and (max-width: 710px) and (min-width: 501px) {
   .flecha-servicios-2 {
     font-size: 30px;
-    bottom: 140px;
-    margin-left: 40%;
+    top: 120px;
+    left: 120px;
   }
 }
 @media screen and (max-width: 500px) {
   .flecha-servicios-2 {
     font-size: 20px;
-    bottom: 71px;
-    margin-left: 40%;
+    top: 50px;
+    left: 40px;
   }
 }
 .algo-emocional {
