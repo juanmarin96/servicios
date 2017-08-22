@@ -1,6 +1,9 @@
 ﻿// Write your Javascript code.
 var img = 2;
 var imgest = 2;
+var imgshop = 3;
+var imgmix = 1;
+var imgcmr = 1;
 var imgins = 1;
 var imgomni = 1;
 
@@ -169,4 +172,116 @@ $(function () {
     $('#texto-omnichannel').html("Usando una mezcla híbrida de técnicas innovadoras. Somos capaces de encontrar y generar insights más frescos y poderosos, logrando potencializar el crecimiento de tu negocio.");
     $('#titulo-omnichannel').html("Marketing Offline");
     setTimeout(changebgomni, 10000);
+})
+
+//Script Shopper
+
+function changebgshop() {
+    $('.gray-shop').css('filter', 'grayscale(100%)');;
+    if (imgshop == 0) {
+        $('#imag-shopper-2').css('filter', 'grayscale(0%)');
+        $('#texto-variable-shop').html("Aqui va texto de img 2");
+        $('#titulo-variable-shop').html("Aqui va titulo img 2");
+    }
+    if (imgshop == 1) {
+        $('#imag-shopper-7').css('filter', 'grayscale(0%)');
+        $('#texto-variable-shop').html("Aqui va texto de img 7");
+        $('#titulo-variable-shop').html("Aqui va titulo img 7");
+    }
+    if (imgshop == 2) {
+        $('#imag-shopper-6').css('filter', 'grayscale(0%)');
+        $('#texto-variable-shop').html("Aqui va texto de img 6");
+        $('#titulo-variable-shop').html("Aqui va titulo img 6");
+    }
+    if (imgshop == 3) {
+        $('#imag-shopper-5').css('filter', 'grayscale(0%)');
+        $('#texto-variable-shop').html("Aqui va texto de img 5");
+        $('#titulo-variable-shop').html("Aqui va titulo img 5");
+    }
+    if (imgshop == 4) {
+        $('#imag-shopper-3').css('filter', 'grayscale(0%)');
+        $('#texto-variable-shop').html("Aqui va texto de img 3");
+        $('#titulo-variable-shop').html("Aqui va titulo img 3");
+    }
+    if (imgshop == 5) {
+        $('#imag-shopper-4').css('filter', 'grayscale(0%)');
+        $('#texto-variable-shop').html("Aqui va texto de img 4");
+        $('#titulo-variable-shop').html("Aqui va titulo img 4");
+    }
+    imgshop = (imgshop + 1) % 6;
+    setTimeout(changebgshop, 10000);
+}
+
+$(function () {
+    $('#imag-shopper-6').css('filter', 'grayscale(0%)');
+    $('#texto-variable-shop').html("Aqui va texto de img 6");
+    $('#titulo-variable-shop').html("Aqui va titulo img 6");
+    setTimeout(changebgshop, 10000);
+})
+
+//Script Mix
+
+function changebgmix() {
+    $('.gray-mix').css('filter', 'grayscale(100%)');;
+    if (imgmix == 0) {
+        $('#mix-flor-7').css('filter', 'grayscale(0%)');
+        $('#texto-variable-mix').html("Aqui va texto de img 7");
+        $('#titulo-variable-mix').html("Aqui va titulo img 7");
+    }
+    if (imgmix == 1) {
+        $('#mix-flor-6').css('filter', 'grayscale(0%)');
+        $('#texto-variable-mix').html("Aqui va texto de img 6");
+        $('#titulo-variable-mix').html("Aqui va titulo img 6");
+    }
+    if (imgmix == 2) {
+        $('#mix-flor-5').css('filter', 'grayscale(0%)');
+        $('#texto-variable-mix').html("Aqui va texto de img 5");
+        $('#titulo-variable-mix').html("Aqui va titulo img 5");
+    }
+    if (imgmix == 3) {
+        $('#mix-flor-3').css('filter', 'grayscale(0%)');
+        $('#texto-variable-mix').html("Aqui va texto de img 3");
+        $('#titulo-variable-mix').html("Aqui va titulo img 3");
+    }
+
+    imgmix = (imgmix + 1) % 4;
+    setTimeout(changebgmix, 10000);
+}
+
+$(function () {
+    $('#mix-flor-7').css('filter', 'grayscale(0%)');
+    $('#texto-variable-mix').html("Aqui va texto de img 7");
+    $('#titulo-variable-mix').html("Aqui va titulo img 7");
+    setTimeout(changebgmix, 10000);
+})
+
+//Script Cmr
+
+function changebgcmr() {
+    $('.gray-cmr').css('filter', 'grayscale(100%)');;
+    if (imgcmr == 0) {
+        $('#cmr2').css('filter', 'grayscale(0%)');
+        $('#texto-variable-cmr').html("Aqui va texto de img 2");
+        $('#titulo-variable-cmr').html("Aqui va titulo img 2");
+    }
+    if (imgcmr == 1) {
+        $('#cmr1').css('filter', 'grayscale(0%)');
+        $('#texto-variable-cmr').html("Aqui va texto de img 1");
+        $('#titulo-variable-cmr').html("Aqui va titulo img 1");
+    }
+    if (imgcmr == 2) {
+        $('#cmr3').css('filter', 'grayscale(0%)');
+        $('#texto-variable-cmr').html("Aqui va texto de img 3");
+        $('#titulo-variable-cmr').html("Aqui va titulo img 3");
+    }
+
+    imgcmr = (imgcmr + 1) % 3;
+    setTimeout(changebgcmr, 10000);
+}
+
+$(function () {
+    $('#cmr2').css('filter', 'grayscale(0%)');
+    $('#texto-variable-cmr').html("Aqui va texto de img 2");
+    $('#titulo-variable-cmr').html("Aqui va titulo img 2");
+    setTimeout(changebgcmr, 10000);
 })

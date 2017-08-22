@@ -2558,6 +2558,12 @@ body {
 .gray-cmr {
   filter: grayscale(100%);
 }
+.gray-shop {
+  filter: grayscale(100%);
+}
+.gray-mix {
+  filter: grayscale(100%);
+}
 .flor-cmr {
   margin-top: -40%;
 }
