@@ -81,31 +81,37 @@ function changebgest() {
         $('#imagen-flor-7').css('filter', 'grayscale(0%)');
         $('#texto-variable').html("Aqui va texto de Branding");
         $('#titulo-variable').html("Branding");
+        $("#Est").attr("href", "#branding-j");
     }
     if (imgest == 1) {
         $('#imagen-flor-6').css('filter', 'grayscale(0%)');
         $('#texto-variable').html("Aqui va texto de Crecimiento");
         $('#titulo-variable').html("Crecimiento");
+        $("#Est").attr("href", "#ver-mas");
     }
     if (imgest == 2) {
         $('#imagen-flor-5').css('filter', 'grayscale(0%)');
         $('#texto-variable').html("Aqui va texto de Insights");
         $('#titulo-variable').html("Insights");
+        $("#Est").attr("href", "#insight-j");
     }
     if (imgest == 3) {
         $('#imagen-flor-3').css('filter', 'grayscale(0%)');
         $('#texto-variable').html("Aqui va texto de Omnichannel");
         $('#titulo-variable').html("Omnichannel");
+        $("#Est").attr("href", "#Omnichannel-j");
     }
     if (imgest == 4) {
         $('#imagen-flor-4').css('filter', 'grayscale(0%)');
         $('#texto-variable').html("Aqui va texto de Marcas Blancas");
         $('#titulo-variable').html("Marcas Blancas");
+        $("#Est").attr("href", "#marcas-blancas-j");
     }
     if (imgest == 5) {
         $('#imagen-flor-2').css('filter', 'grayscale(0%)');
         $('#texto-variable').html("Aqui va texto de Pricing");
         $('#titulo-variable').html("Pricing");
+        $("#Est").attr("href", "#pricing-j");
     }
     imgest = (imgest + 1) % 6;
     setTimeout(changebgest, 10000);
@@ -116,6 +122,7 @@ $(function () {
     $('#imagen-flor-6').css('filter', 'grayscale(0%)');
     $('#texto-variable').html("Aqui va texto de Crecimiento");
     $('#titulo-variable').html("Crecimiento");
+    $("#Est").attr("href", "#ver-mas");
     setTimeout(changebgest, 10000);
 })
 
@@ -127,11 +134,13 @@ function changebgins() {
         $('.insights2').css('filter', 'grayscale(0%)');
         $('#texto-insights').html("Cada consumidor y generación es único a su manera. Mientras que los Baby Boomers sólo seguían las reglas las generación X las rompió, la generación Y quiere co-crear las reglas mientras la generación Z crea sus propias reglas personales.");
         $('#titulo-insights').html("Insightful Planning");
+        $("#insight-bj").attr("href", "#Planning-j");
     }
     if (imgins == 1) {
         $('.insights1').css('filter', 'grayscale(0%)');
         $('#texto-insights').html("Usando una mezcla híbrida de técnicas innovadoras. Somos capaces de encontrar y generar insights más frescos y poderosos, logrando potencializar el crecimiento de tu negocio.");
         $('#titulo-insights').html("Insightful Innovation");
+        $("#insight-bj").attr("href", "#Innovation-j");
     }
 
     imgins = (imgins + 1) % 2;
@@ -141,6 +150,7 @@ $(function () {
     $('.insights1').css('filter', 'grayscale(0%)');
     $('#texto-insights').html("Usando una mezcla híbrida de técnicas innovadoras. Somos capaces de encontrar y generar insights más frescos y poderosos, logrando potencializar el crecimiento de tu negocio.");
     $('#titulo-insights').html("Insightful Innovation");
+    $("#insight-bj").attr("href", "#Innovation-j");
     setTimeout(changebgins, 10000);
 })
 
@@ -152,16 +162,20 @@ function changebgomni() {
         $('.offline').css('filter', 'grayscale(0%)');
         $('#texto-omnichannel').html("Usando una mezcla híbrida de técnicas innovadoras. Somos capaces de encontrar y generar insights más frescos y poderosos, logrando potencializar el crecimiento de tu negocio.");
         $('#titulo-omnichannel').html("Marketing Offline");
+        $("#icon-om").attr("href", "#Offline-j");
     }
     if (imgomni == 1) {
         $('.online').css('filter', 'grayscale(0%)');
         $('#texto-omnichannel').html("El marketing digital o e-marketing cubre toda la actividad de marketing a través de Internet. Puede ser un método extremadamente rentable para alcanzar a tu cliente objetivo “Target” cuando es manejado correctamente.");
         $('#titulo-omnichannel').html("Marketing Online");
+        $("#icon-om").attr("href", "#Online-j");
     }
     if (imgomni == 2) {
         $('.tdl').css('filter', 'grayscale(0%)');
         $('#texto-omnichannel').html("Aqui va texto TDL");
         $('#titulo-omnichannel').html("TDL");
+        $("#icon-om").attr("href", "#tdl-j");
+
     }
 
     imgomni = (imgomni + 1) % 3;
@@ -172,6 +186,7 @@ $(function () {
     $('#texto-omnichannel').html("Usando una mezcla híbrida de técnicas innovadoras. Somos capaces de encontrar y generar insights más frescos y poderosos, logrando potencializar el crecimiento de tu negocio.");
     $('#titulo-omnichannel').html("Marketing Offline");
     setTimeout(changebgomni, 10000);
+    $("#icon-om").attr("href", "#Offline-j");
 })
 
 //Script Shopper
@@ -192,6 +207,7 @@ function changebgshop() {
         $('#imag-shopper-6').css('filter', 'grayscale(0%)');
         $('#texto-variable-shop').html("Aqui va texto de img 6");
         $('#titulo-variable-shop').html("Aqui va titulo img 6");
+        $("#Ico-Shopper").attr("href", "#Sho");
     }
     if (imgshop == 3) {
         $('#imag-shopper-5').css('filter', 'grayscale(0%)');
@@ -202,6 +218,7 @@ function changebgshop() {
         $('#imag-shopper-3').css('filter', 'grayscale(0%)');
         $('#texto-variable-shop').html("Aqui va texto de img 3");
         $('#titulo-variable-shop').html("Aqui va titulo img 3");
+        $("#Ico-Shopper").attr("href", "#shopper-j");
     }
     if (imgshop == 5) {
         $('#imag-shopper-4').css('filter', 'grayscale(0%)');
@@ -227,6 +244,7 @@ function changebgmix() {
         $('#mix-flor-7').css('filter', 'grayscale(0%)');
         $('#texto-variable-mix').html("Aqui va texto de img 7");
         $('#titulo-variable-mix').html("Aqui va titulo img 7");
+       
     }
     if (imgmix == 1) {
         $('#mix-flor-6').css('filter', 'grayscale(0%)');
@@ -237,6 +255,7 @@ function changebgmix() {
         $('#mix-flor-5').css('filter', 'grayscale(0%)');
         $('#texto-variable-mix').html("Aqui va texto de img 5");
         $('#titulo-variable-mix').html("Aqui va titulo img 5");
+        $("#Ico-Mix").attr("href", "#promo");
     }
     if (imgmix == 3) {
         $('#mix-flor-3').css('filter', 'grayscale(0%)');
@@ -268,11 +287,13 @@ function changebgcmr() {
         $('#cmr1').css('filter', 'grayscale(0%)');
         $('#texto-variable-cmr').html("Aqui va texto de img 1");
         $('#titulo-variable-cmr').html("Aqui va titulo img 1");
+        $("#ico-cmr").attr("href", "#ver-mas");
     }
     if (imgcmr == 2) {
         $('#cmr3').css('filter', 'grayscale(0%)');
         $('#texto-variable-cmr').html("Aqui va texto de img 3");
         $('#titulo-variable-cmr').html("Aqui va titulo img 3");
+        $("#ico-cmr").attr("href", "#internal-brand");
     }
 
     imgcmr = (imgcmr + 1) % 3;

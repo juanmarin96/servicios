@@ -3182,6 +3182,9 @@ body {
     width: 140px;
   }
 }
+.flor-product:hover {
+  filter: grayscale(0%);
+}
 .prom {
   max-width: 390px;
 }
