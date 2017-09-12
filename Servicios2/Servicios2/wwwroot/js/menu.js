@@ -18,7 +18,7 @@ $(window).scroll(function () {
 });
 
 function posicionarMenu() {
-    var altura_del_header = $('.Cimagen').outerHeight(true);
+    var altura_del_header = $('.top-imagen').outerHeight(true);
     var altura_del_menu = $('.menu').outerHeight(true);
 
     if ($(window).scrollTop() >= altura_del_header) {

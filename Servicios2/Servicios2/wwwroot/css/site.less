@@ -42,6 +42,18 @@ body {
     overflow-x: hidden;
 }
 
+.top-imagen {
+    width: 100%;
+
+    &, .container, .container > div, .container > div > div {
+        height: ~"calc(100vh - 60px)";
+        position: relative;
+    }
+
+    background-size: cover;
+    position: relative;
+}
+
 .navbar {
     margin-bottom: 0px !important;
 }

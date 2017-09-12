@@ -9,24 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\css\site.less" />
-    <Content Include="wwwroot\images\home-12.png" />
-    <Content Include="wwwroot\images\ImagenesBlog\19184104_1563135163737785_1014907494_n.png" />
-    <Content Include="wwwroot\images\ImagenesBlog\19191078_1563135380404430_1939419662_n.png" />
-    <Content Include="wwwroot\images\ImagenesBlog\19198340_1563135723737729_2002035657_n.png" />
-    <Content Include="wwwroot\images\ImagenesBlog\19357625_1563138477070787_1430364618_n.png" />
-    <Content Include="wwwroot\images\ImagenesComo\19397866_1568374316547203_28981247_n.png" />
-    <Content Include="wwwroot\images\ImagenesComo\crecemos.png" />
-    <Content Include="wwwroot\images\ImagenesComo\diagnostico.png" />
-    <Content Include="wwwroot\images\ImagenesComo\estrategia.png" />
-    <Content Include="wwwroot\images\ImagenesComo\implementamos.png" />
-    <Content Include="wwwroot\images\ImagenesComo\pictogramas crecemos.png" />
-    <Content Include="wwwroot\images\ImagenesComo\pictogramas diagnosticamos.png" />
-    <Content Include="wwwroot\images\ImagenesComo\pictogramas estretegia.png" />
-    <Content Include="wwwroot\images\ImagenesComo\pictogramas implementamos.png" />
-    <Content Include="wwwroot\images\index.PNG" />
-    <Content Include="wwwroot\images\logo.png" />
-    <Content Include="wwwroot\js\menu.js" />
+    <None Remove="Properties\PublishProfiles\omarketing - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\omarketing - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
@@ -38,6 +22,9 @@
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 </Project>

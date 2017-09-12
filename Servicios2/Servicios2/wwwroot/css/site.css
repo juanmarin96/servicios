@@ -38,6 +38,18 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+.top-imagen {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.top-imagen,
+.top-imagen .container,
+.top-imagen .container > div,
+.top-imagen .container > div > div {
+  height: calc(100vh - 60px);
+  position: relative;
+}
 .navbar {
   margin-bottom: 0px !important;
 }
