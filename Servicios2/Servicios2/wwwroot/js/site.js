@@ -8,7 +8,7 @@ var imgins = 1;
 var imgomni = 1;
 
 // Script home
-
+/*
 function changebg() {
     $('.gray').css('filter', 'grayscale(100%)');;
     if (img == 0) {
@@ -71,7 +71,7 @@ $(function () {
     $('.flecha-servicios').css('background', '#ffab40');
     $('.flecha-servicios-2').css('background', '#ffab40');
     setTimeout(changebg, 10000);
-})
+})*/
 
 // Script Estrategia
 
@@ -306,3 +306,40 @@ $(function () {
     $('#titulo-variable-cmr').html("Aqui va titulo img 2");
     setTimeout(changebgcmr, 10000);
 })
+
+$('.anim-flor').hover(function () {
+    $(this).data('anim', 'off');
+    
+    $(this).children('.anim').each(function () {
+        $(this).addClass('gray');
+    });
+});
+
+/*$('.anim-flor').mouseout(function () {
+    $(this).data('anim', 'on');
+});*/
+
+function animar() {
+    $('.anim-flor').each(function () {
+        if ($(this).data('anim') == 'on') {
+            var n = parseInt($(this).data('n'));
+            var current = parseInt($(this).data('i'));
+            var targetH3 = $(this).data('h3target');
+            $(this).children('.anim').each(function () {
+                if (parseInt($(this).data('i')) == current) {
+                    $(this).removeClass('gray');
+                    $(targetH3).html($(this).data('h3'));
+                } else {
+                    $(this).addClass('gray');
+                }                
+            });
+            current = (current + 1) % n;
+            $(this).data('i', current);            
+        }        
+    });
+    setTimeout(animar, 500);
+}
+
+$(function () {
+    animar();
+});

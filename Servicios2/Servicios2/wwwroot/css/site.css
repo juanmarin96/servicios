@@ -3770,3 +3770,6 @@ body {
 .flor-como #como-flor-3:hover {
   filter: grayscale(0%);
 }
+.anim:hover {
+  filter: grayscale(0%) !important;
+}
