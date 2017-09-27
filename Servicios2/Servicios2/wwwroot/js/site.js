@@ -8,11 +8,13 @@ $('.anim').hover(function () {
     var colorH3 = $(this).data('h3color');
     var flecha1 = $(this).data('flecha1');
     var flecha2 = $(this).data('flecha2');
+    var targetHref = $(this).data('hreftarget')
     $(targetH3).html($(this).data('h3'));
     $(targetP).html($(this).data('p'));
     $(colorH3).css('color', $(this).data('color'));
     $(flecha1).css('background-color', $(this).data('color'));
     $(flecha2).css('background-color', $(this).data('color'));
+    $(targetHref).attr("href", $(this).data('href'));
     $('.anim').each(function () {
         $(this).addClass('gray');
     });
@@ -23,6 +25,10 @@ $('.anim').hover(function () {
     $(this).children('.anim').each(function () {
         $(this).addClass('gray');
     });
+});
+
+$('.anim').click(function () {
+    location.replace($(this).data('click'));
 });
 
 function animar() {
@@ -39,12 +45,14 @@ function animar() {
                     var flecha1 = $(this).data('flecha1');
                     var flecha2 = $(this).data('flecha2');
                     var targetHref = $(this).data('hreftarget')
+                    var targetHref1 = $(this).data('hreftarget1')
                     $(targetH3).html($(this).data('h3'));
                     $(targetP).html($(this).data('p'));
                     $(colorH3).css('color', $(this).data('color'));
                     $(flecha1).css('background-color', $(this).data('color'));
                     $(flecha2).css('background-color', $(this).data('color'));
                     $(targetHref).attr("href", $(this).data('href'));
+                    $(targetHref1).attr("href", $(this).data('href'));
                 } else {
                     $(this).addClass('gray');
                 }
@@ -53,7 +61,7 @@ function animar() {
             $(this).data('i', current);
         }
     });
-    setTimeout(animar, 2000);
+    setTimeout(animar, 3000);
 }
 
 $(function () {
