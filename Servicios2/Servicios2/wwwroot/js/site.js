@@ -1,81 +1,66 @@
 ﻿// Write your Javascript code.
-var img = 2;
-var imgest = 2;
-var imgshop = 3;
-var imgmix = 1;
-var imgcmr = 1;
-var imgins = 1;
-var imgomni = 1;
 
-// Script home
+$('.anim').hover(function () {
+    var parent = $(this).parent().get(0);
+    $(parent).data('anim', 'off');
+    var targetH3 = $(this).data('h3target');
+    var targetP = $(this).data('ptarget');
+    var colorH3 = $(this).data('h3color');
+    var flecha1 = $(this).data('flecha1');
+    var flecha2 = $(this).data('flecha2');
+    $(targetH3).html($(this).data('h3'));
+    $(targetP).html($(this).data('p'));
+    $(colorH3).css('color', $(this).data('color'));
+    $(flecha1).css('background-color', $(this).data('color'));
+    $(flecha2).css('background-color', $(this).data('color'));
+    $('.anim').each(function () {
+        $(this).addClass('gray');
+    });
 
-function changebg() {
-    $('.gray').css('filter', 'grayscale(100%)');;
-    if (img == 0) {
-        $('.img-estrategia').css('filter', 'grayscale(0%)');
-        $('#texto-encabezado').html("Aqui va texto de Estrategia");
-        $('#titulo-encabezado').html("Estrategia  ");
-        $('.titulo-encab').css('color', '#ff6d40');
-        $('.flecha-servicios').css('background', '#ff6d40');
-        $('.flecha-servicios-2').css('background', '#ff6d40');
-    }        
-    if (img == 1) {
-        $('.img-innovacion').css('filter', 'grayscale(0%)');
-        $('#texto-encabezado').html("Aqui va texto de Innovacion");
-        $('#titulo-encabezado').html("Innovacion  ");
-        $('.titulo-encab').css('color', '#ffab40');
-        $('.flecha-servicios').css('background', '#ffab40');
-        $('.flecha-servicios-2').css('background', '#ffab40');
-    }   
-    if (img == 2) {
-        $('.img-neuromarketing').css('filter', 'grayscale(0%)');
-        $('#texto-encabezado').html("Aqui va texto de Neuromarketing");
-        $('#titulo-encabezado').html("Neuromarketing  ");
-        $('.titulo-encab').css('color', '#ffea00');
-        $('.flecha-servicios').css('background', '#ffea00');
-        $('.flecha-servicios-2').css('background', '#ffea00');
-    }
-    if (img == 3) {
-        $('.img-cmr').css('filter', 'grayscale(0%)');
-        $('#texto-encabezado').html("Aqui va texto de Cmr");
-        $('#titulo-encabezado').html("Cmr  ");
-        $('.titulo-encab').css('color', '#b1ff58');
-        $('.flecha-servicios').css('background', '#b1ff58');
-        $('.flecha-servicios-2').css('background', '#b1ff58');
-    }
-    if (img == 4) {
-        $('.img-shopper').css('filter', 'grayscale(0%)');
-        $('#texto-encabezado').html("Aqui va texto de Shopper");
-        $('#titulo-encabezado').html("Shopper  ");
-        $('.titulo-encab').css('color', '#40c4ff');
-        $('.flecha-servicios').css('background', '#40c4ff');
-        $('.flecha-servicios-2').css('background', '#40c4ff');
-    }
-    if (img == 5) {
-        $('.img-marketing-mix').css('filter', 'grayscale(0%)');
-        $('#texto-encabezado').html("Aqui va texto de Marketing-mix");
-        $('#titulo-encabezado').html("Marketing-mix  ");
-        $('.titulo-encab').css('color', '#7b4dff');
-        $('.flecha-servicios').css('background', '#7b4dff');
-        $('.flecha-servicios-2').css('background', '#7b4dff');
-    }     
-    img = (img + 1) % 6;
-    setTimeout(changebg, 10000);
+}, function () {
+    var parent = $(this).parent().get(0);
+    $(parent).data('anim', 'on');
+    $(this).children('.anim').each(function () {
+        $(this).addClass('gray');
+    });
+});
+
+function animar() {
+    $('.anim-flor').each(function () {
+        if ($(this).data('anim') == 'on') {
+            var n = parseInt($(this).data('n'));
+            var current = parseInt($(this).data('i'));
+            $(this).children('.anim').each(function () {
+                if (parseInt($(this).data('i')) == current) {
+                    $(this).removeClass('gray');
+                    var targetH3 = $(this).data('h3target');
+                    var targetP = $(this).data('ptarget');
+                    var colorH3 = $(this).data('h3color');
+                    var flecha1 = $(this).data('flecha1');
+                    var flecha2 = $(this).data('flecha2');
+                    $(targetH3).html($(this).data('h3'));
+                    $(targetP).html($(this).data('p'));
+                    $(colorH3).css('color', $(this).data('color'));
+                    $(flecha1).css('background-color', $(this).data('color'));
+                    $(flecha2).css('background-color', $(this).data('color'));
+                } else {
+                    $(this).addClass('gray');
+                }
+            });
+            current = (current + 1) % n;
+            $(this).data('i', current);
+        }
+    });
+    setTimeout(animar, 2000);
 }
 
 $(function () {
-    $('.img-innovacion').css('filter', 'grayscale(0%)');
-    $('#texto-encabezado').html("Aqui va texto de Innovacion");
-    $('#titulo-encabezado').html("Innovacion  ");
-    $('.titulo-encab').css('color', '#ffab40');
-    $('.flecha-servicios').css('background', '#ffab40');
-    $('.flecha-servicios-2').css('background', '#ffab40');
-    setTimeout(changebg, 10000);
-})
+    animar();
+});
 
 // Script Estrategia
 
-function changebgest() {
+/*function changebgest() {
     $('.grayest').css('filter', 'grayscale(100%)');;
     if (imgest == 0) {
         $('#imagen-flor-7').css('filter', 'grayscale(0%)');
@@ -125,10 +110,10 @@ $(function () {
     $("#Est").attr("href", "#ver-mas");
     setTimeout(changebgest, 10000);
 })
-
+*/
 //Script Estrategia Insights
 
-function changebgins() {
+/*function changebgins() {
     $('.grayins').css('filter', 'grayscale(100%)');;
     if (imgins == 0) {
         $('.insights2').css('filter', 'grayscale(0%)');
@@ -152,11 +137,11 @@ $(function () {
     $('#titulo-insights').html("Insightful Innovation");
     $("#insight-bj").attr("href", "#Innovation-j");
     setTimeout(changebgins, 10000);
-})
+})*/
 
 //Script Estrategia Omnichannel
 
-function changebgomni() {
+/*function changebgomni() {
     $('.grayomni').css('filter', 'grayscale(100%)');;
     if (imgomni == 0) {
         $('.offline').css('filter', 'grayscale(0%)');
@@ -187,11 +172,11 @@ $(function () {
     $('#titulo-omnichannel').html("Marketing Offline");
     setTimeout(changebgomni, 10000);
     $("#icon-om").attr("href", "#Offline-j");
-})
+})*/
 
 //Script Shopper
 
-function changebgshop() {
+/*function changebgshop() {
     $('.gray-shop').css('filter', 'grayscale(100%)');;
     if (imgshop == 0) {
         $('#imag-shopper-2').css('filter', 'grayscale(0%)');
@@ -234,11 +219,11 @@ $(function () {
     $('#texto-variable-shop').html("Aqui va texto de img 6");
     $('#titulo-variable-shop').html("Aqui va titulo img 6");
     setTimeout(changebgshop, 10000);
-})
+})*/
 
 //Script Mix
 
-function changebgmix() {
+/*function changebgmix() {
     $('.gray-mix').css('filter', 'grayscale(100%)');;
     if (imgmix == 0) {
         $('#mix-flor-7').css('filter', 'grayscale(0%)');
@@ -272,11 +257,11 @@ $(function () {
     $('#texto-variable-mix').html("Aqui va texto de img 7");
     $('#titulo-variable-mix').html("Aqui va titulo img 7");
     setTimeout(changebgmix, 10000);
-})
+})*/
 
 //Script Cmr
 
-function changebgcmr() {
+/*function changebgcmr() {
     $('.gray-cmr').css('filter', 'grayscale(100%)');;
     if (imgcmr == 0) {
         $('#cmr2').css('filter', 'grayscale(0%)');
@@ -305,4 +290,5 @@ $(function () {
     $('#texto-variable-cmr').html("Aqui va texto de img 2");
     $('#titulo-variable-cmr').html("Aqui va titulo img 2");
     setTimeout(changebgcmr, 10000);
-})
+})*/
+

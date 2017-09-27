@@ -3770,3 +3770,19 @@ body {
 .flor-como #como-flor-3:hover {
   filter: grayscale(0%);
 }
+
+.negrita {
+    color: yellow;
+}
+
+.resaltar {
+    color: red;
+}
+
+.resaltar1 {
+    color: red;
+}
+
+.anim:hover {
+    filter: grayscale(0%) !important;
+}
