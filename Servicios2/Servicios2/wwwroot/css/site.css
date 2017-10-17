@@ -1156,7 +1156,6 @@ body {
   margin-left: 50%;
 }
 .img-desarr {
-  filter: grayscale(100%);
   margin-top: -54%;
   margin-left: -20%;
 }
@@ -1164,7 +1163,6 @@ body {
   filter: grayscale(0%);
 }
 .img-diver {
-  filter: grayscale(100%);
   margin-top: -63%;
   margin-left: 122%;
 }
@@ -1172,7 +1170,6 @@ body {
   filter: grayscale(0%);
 }
 .img-penetr {
-  filter: grayscale(100%);
   margin-top: 60%;
   margin-left: 50%;
 }
@@ -1185,7 +1182,6 @@ body {
   filter: grayscale(0%);
 }
 .img-pic23 {
-  filter: grayscale(100%);
   margin-top: -104%;
   margin-left: 120%;
 }
