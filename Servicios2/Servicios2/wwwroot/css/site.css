@@ -326,10 +326,10 @@ body {
 .cuadros-serv {
   width: 600px;
   position: relative;
-  top: 140px;
+  top: 120px;
   margin-top: -60%;
   margin-left: -11%;
-  z-index: -100;
+  z-index: -1;
 }
 @media screen and (max-width: 992px) {
   .cuadros-serv {
@@ -364,9 +364,8 @@ body {
   }
 }
 .img-innovacion {
-  margin-top: -15%;
+  margin-top: -45%;
   margin-left: 30%;
-  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .img-innovacion {
@@ -383,9 +382,8 @@ body {
   filter: grayscale(0%);
 }
 .img-estrategia {
-    margin-top: -56%;
-    margin-left: -51%;
-    cursor: pointer;
+  margin-top: -56%;
+  margin-left: -51%;
 }
 @media screen and (max-width: 992px) {
   .img-estrategia {
@@ -396,10 +394,8 @@ body {
   filter: grayscale(0%);
 }
 .img-marketing-mix {
-    margin-top: -56%;
-    margin-left: -53%;
-    z-index: 100;
-    cursor: pointer;
+  margin-top: -56%;
+  margin-left: -53%;
 }
 @media screen and (max-width: 992px) {
   .img-marketing-mix {
@@ -410,9 +406,8 @@ body {
   filter: grayscale(0%);
 }
 .img-shopper {
-    margin-top: -45%;
-    margin-left: 30%;
-    cursor: pointer;
+  margin-top: -45%;
+  margin-left: 30%;
 }
 @media screen and (max-width: 992px) {
   .img-shopper {
@@ -423,9 +418,8 @@ body {
   filter: grayscale(0%);
 }
 .img-cmr {
-    margin-top: -100%;
-    margin-left: 114%;
-    cursor: pointer;
+  margin-top: -100%;
+  margin-left: 114%;
 }
 @media screen and (max-width: 992px) {
   .img-cmr {
@@ -436,9 +430,8 @@ body {
   filter: grayscale(0%);
 }
 .img-neuromarketing {
-    margin-top: -100%;
-    margin-left: 110%;
-    cursor: pointer;
+  margin-top: -100%;
+  margin-left: 110%;
 }
 @media screen and (max-width: 992px) {
   .img-neuromarketing {
@@ -1667,7 +1660,7 @@ body {
   filter: grayscale(100%);
 }
 .triangulos-trasparentes {
-  margin-top: -35%;
+  margin-top: -10%;
   float: left;
 }
 .online {
@@ -3126,6 +3119,11 @@ body {
   width: 100%;
   background: white;
 }
+@media screen and (max-width: 3000px) and (min-width: 1900px) {
+  #img-4c {
+    margin-top: 300px;
+  }
+}
 .flor-p {
   margin-top: -10%;
 }
@@ -3782,19 +3780,12 @@ body {
 .flor-como #como-flor-3:hover {
   filter: grayscale(0%);
 }
-
 .negrita {
-    color: yellow;
+  color: red;
 }
-
 .resaltar {
-    color: red;
+  color: yellow;
 }
-
-.resaltar1 {
-    color: red;
-}
-
 .anim:hover {
-    filter: grayscale(0%) !important;
+  filter: grayscale(0%) !important;
 }
