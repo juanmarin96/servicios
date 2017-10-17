@@ -734,6 +734,7 @@ body {
   width: 450px;
   top: 40px;
   z-index: 1;
+  cursor: pointer;
 }
 @media screen and (max-width: 1260px) and (min-width: 993px) {
   .img-equipo-1 {
@@ -764,6 +765,7 @@ body {
   width: 450px;
   top: 40px;
   z-index: 1;
+  cursor: pointer;
 }
 @media screen and (max-width: 815px) {
   .img-equipo-2 {
@@ -793,6 +795,7 @@ body {
   position: relative;
   width: 450px;
   top: 40px;
+  cursor: pointer;
 }
 @media screen and (max-width: 815px) {
   .img-equipo-3 {
@@ -822,6 +825,7 @@ body {
   position: relative;
   width: 450px;
   top: 40px;
+  cursor: pointer;
 }
 @media screen and (max-width: 815px) {
   .img-equipo-4 {
