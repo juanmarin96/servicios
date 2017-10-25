@@ -1,6 +1,4 @@
-﻿// Write your Javascript code.
-
-$('#body-div').on('mouseover', '.anim', function () {
+﻿$('#body-div').on('mouseover', '.anim', function () {
     var parent = $(this).parent().get(0);
     $(parent).data('anim', 'off');
     var targetH3 = $(this).data('h3target');
@@ -20,17 +18,57 @@ $('#body-div').on('mouseover', '.anim', function () {
     });
 });
 
-$('#body-div').on('click', '.anim', function () {
-    $('#body-div').removeClass('fadeInRight');
-    $('#body-div').addClass('fadeOutLeft');
-    $.ajax({
-        url: $(this).data('click')
-    }).done(function (d) {
-        $('#body-div').html(d);
-        $('#body-div').removeClass('fadeOutLeft');
-        $('#body-div').addClass('fadeInRight');
+$('#body-div').on('mouseleave', '.anim', function () {
+    var parent = $(this).parent().get(0);
+    $(parent).data('anim', 'on');
+    $(this).children('.anim').each(function () {
+        $(this).addClass('gray');
     });
+});
 
+$('#body-div').on('click', '.ver-mas button', function () {
+    var parent = $(this).parent().get(0);
+    $(parent).children('div').slideToggle();
+});
+
+function loadView(view) {
+    $('#body-div').removeClass('fadeInRight');
+    $('#body-div').addClass('fadeOutLeft');    
+    
+    setTimeout(function () {  
+        $('#body-div').addClass('hidden');
+        $('#loader').addClass('flipInY');
+        $.ajax({
+            url: view
+        }).done(function (d) {
+            $('#body-div').html(d);
+            setTimeout(function () {
+                $('#loader').removeClass('flipInY');
+                $('#body-div').removeClass('hidden');                
+                $('#body-div').removeClass('fadeOutLeft');
+                $('#body-div').addClass('fadeInRight');
+            }, 2000);
+        });
+    }, 1000);    
+}
+
+$('#body-div').on('click', '.anim', function () { 
+    
+    var dataClick = $(this).data('click');
+    
+    if (dataClick.indexOf("#") == -1) {
+        var top = $('.top-imagen').outerHeight(true);
+        $('html, body').animate({
+            scrollTop: top
+        }, 1000);
+        loadView(dataClick);        
+    } else {        
+        var top = $(dataClick).offset().top;
+        $('html, body').animate({
+            scrollTop: top - 64
+        }, 1000);
+    }   
+    
     
 });
 
@@ -68,6 +106,7 @@ function animar() {
 }
 
 $(function () {
-    animar();
+    loadView("Home/Home");
+    animar();    
 });
 

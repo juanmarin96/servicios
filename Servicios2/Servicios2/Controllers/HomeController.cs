@@ -13,6 +13,12 @@ namespace Servicios2.Controllers
             return View();
         }
 
+        public IActionResult Home()
+        {
+            return PartialView();
+        }
+
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
