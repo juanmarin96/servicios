@@ -6211,3 +6211,19 @@ a:active {
 .ver-mas.lite p {
   color: #000;
 }
+
+.footer-div {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.logo-footer {
+    margin-top:10%
+}
+
+@media screen and (max-width: 992px) {
+    .logo-footer {
+        margin-top: 2%
+    }
+}
