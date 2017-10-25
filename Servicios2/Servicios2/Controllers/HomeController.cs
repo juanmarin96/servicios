@@ -17,7 +17,7 @@ namespace Servicios2.Controllers
         {
             ViewData["Message"] = "Your application description page.";
 
-            return View();
+            return PartialView();
         }
 
         public IActionResult Contact()
@@ -33,46 +33,46 @@ namespace Servicios2.Controllers
         }
         public IActionResult Estrategia()
         {
-            return View("Estrategia");
+            return PartialView("Estrategia");
         }
 
         public IActionResult Cmr()
         {
-            return View("Cmr");
+            return PartialView("Cmr");
         }
         public IActionResult Mix()
         {
-            return View("Mix");
+            return PartialView("Mix");
         }
         public IActionResult Innovacion()
         {
-            return View("Innovacion");
+            return PartialView("Innovacion");
         }
         public IActionResult Shopper()
         {
-            return View("Shopper");
+            return PartialView("Shopper");
         }
         public IActionResult Neuromarketing()
         {
-            return View("Neuromarketing");
+            return PartialView("Neuromarketing");
         }
         public IActionResult Articuloblog()
         {
-            return View("Articuloblog");
+            return PartialView("Articuloblog");
         }
         public IActionResult DirectorioBlog()
         {
-            return View("DirectorioBlog");
+            return PartialView("DirectorioBlog");
         }
 
         public IActionResult Equipo()
         {
-            return View("Equipo");
+            return PartialView("Equipo");
         }
 
         public IActionResult ComoFunciona()
         {
-            return View("ComoFunciona");
+            return PartialView("ComoFunciona");
         }
     }
 }

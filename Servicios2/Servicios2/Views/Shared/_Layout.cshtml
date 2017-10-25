@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <title>@ViewData["Title"] - Servicios2</title>
+    <title>Omarketing</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <environment names="Development">
@@ -76,11 +76,14 @@
             </div>            
         </div>
     </nav>
+    <div id="empty-fixedbar"></div>
     <div class="container body-content">
-        @RenderBody()
-        <hr />
+        <div id="body-div" class="animated">
+            @RenderBody()
+        </div>
+        <br /><br />
         <footer>
-            <p>&copy; 2017 - Servicios2</p>
+            <p>&copy; 2017 - Omarketing</p>
         </footer>
     </div>
    

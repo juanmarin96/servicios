@@ -23,8 +23,10 @@ function posicionarMenu() {
 
     if ($(window).scrollTop() >= altura_del_header) {
         $('.menu').addClass('menu-fixed');
+        $('#empty-fixedbar').addClass('fix');
     } else {
         $('.menu').removeClass('menu-fixed');
+        $('#empty-fixedbar').removeClass('fix');
     }
 }
 

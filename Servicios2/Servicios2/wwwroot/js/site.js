@@ -1,6 +1,6 @@
 ﻿// Write your Javascript code.
 
-$('.anim').hover(function () {
+$('#body-div').on('mouseover', '.anim', function () {
     var parent = $(this).parent().get(0);
     $(parent).data('anim', 'off');
     var targetH3 = $(this).data('h3target');
@@ -18,17 +18,20 @@ $('.anim').hover(function () {
     $('.anim').each(function () {
         $(this).addClass('gray');
     });
-
-}, function () {
-    var parent = $(this).parent().get(0);
-    $(parent).data('anim', 'on');
-    $(this).children('.anim').each(function () {
-        $(this).addClass('gray');
-    });
 });
 
-$('.anim').click(function () {
-    location.replace($(this).data('click'));
+$('#body-div').on('click', '.anim', function () {
+    $('#body-div').removeClass('fadeInRight');
+    $('#body-div').addClass('fadeOutLeft');
+    $.ajax({
+        url: $(this).data('click')
+    }).done(function (d) {
+        $('#body-div').html(d);
+        $('#body-div').removeClass('fadeOutLeft');
+        $('#body-div').addClass('fadeInRight');
+    });
+
+    
 });
 
 function animar() {
