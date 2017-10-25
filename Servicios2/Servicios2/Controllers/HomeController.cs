@@ -72,7 +72,7 @@ namespace Servicios2.Controllers
 
         public IActionResult ComoFunciona()
         {
-            return PartialView("ComoFunciona");
+            return View("ComoFunciona");
         }
     }
 }
