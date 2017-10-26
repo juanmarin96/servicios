@@ -8,28 +8,26 @@ namespace Servicios2.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(string url="Home/Home")
         {
+            ViewBag.DataCallUrl = url;
             return View();
         }
-
+        
         public IActionResult Home()
         {
             return PartialView();
         }
 
-
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            
             return PartialView();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your cdontact page.";
-
+           
             return View();
         }
 
@@ -46,26 +44,32 @@ namespace Servicios2.Controllers
         {
             return PartialView("Cmr");
         }
+
         public IActionResult Mix()
         {
             return PartialView("Mix");
         }
+
         public IActionResult Innovacion()
         {
             return PartialView("Innovacion");
         }
+
         public IActionResult Shopper()
         {
             return PartialView("Shopper");
         }
+
         public IActionResult Neuromarketing()
         {
             return PartialView("Neuromarketing");
         }
+
         public IActionResult Articuloblog()
         {
             return PartialView("Articuloblog");
         }
+
         public IActionResult DirectorioBlog()
         {
             return PartialView("DirectorioBlog");
@@ -78,7 +82,7 @@ namespace Servicios2.Controllers
 
         public IActionResult ComoFunciona()
         {
-            return View("ComoFunciona");
+            return PartialView("ComoFunciona");
         }
     }
 }

@@ -2457,7 +2457,7 @@ body {
   z-index: 1000;
   top: 0;
   width: 100%;
-  box-shadow: 10px 4px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
 }
 .how-container {
   background: #212121;
@@ -2535,7 +2535,7 @@ body {
   background: gray;
   color: white;
   text-align: center;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.35);
 }
 .row-eq-height {
   display: -webkit-box;
@@ -6194,7 +6194,7 @@ a:active {
 #loader {
   display: none;
   color: #fff;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 #loader.flipInY {
   display: block;
@@ -6211,19 +6211,8 @@ a:active {
 .ver-mas.lite p {
   color: #000;
 }
-
 .footer-div {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-}
-
-.logo-footer {
-    margin-top:10%
-}
-
-@media screen and (max-width: 992px) {
-    .logo-footer {
-        margin-top: 2%
-    }
+  height: 500px;
+  width: 100%;
+  background-color: black;
 }

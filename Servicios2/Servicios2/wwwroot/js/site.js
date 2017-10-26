@@ -31,7 +31,12 @@ $('#body-div').on('click', '.ver-mas button', function () {
     $(parent).children('div').slideToggle();
 });
 
+var firstHistory = true;
 function loadView(view) {
+    firstHistory = false;
+    var urldata = view.split('/');     
+    window.history.pushState({ js: true }, "", document.URL.split('?')[0] + '?url=Home%2F' + urldata[urldata.length - 1]);
+
     $('#body-div').removeClass('fadeInRight');
     $('#body-div').addClass('fadeOutLeft');    
     
@@ -106,7 +111,14 @@ function animar() {
 }
 
 $(function () {
-    loadView("Home/Home");
+    window.onpopstate = function (e) {
+        if (firstHistory) return;
+
+        // Trigger url load
+        document.location = document.location;
+    };
+
+    loadView($("#body-div").data('call-url'));
     animar();    
 });
 
