@@ -46,10 +46,14 @@ $(window).scroll(function () {
 });
 
 function posicionarBarra() {
-    var altura_iconos = $('.iconos').offset().top;
-    var altura_nav = $('.iconos-nav').outerHeight(true);
+    var e = $('.iconos').offset();
+    if (e === undefined) return;
 
-    if ($(window).scrollTop() >= altura_iconos) {
+    var altura_iconos = e.top;
+    var altura_nav = '60px';
+    $($('.iconos-nav').parent('div')).css('height', altura_nav);
+
+    if ($(window).scrollTop() + 60 >= altura_iconos) {
         console.log($(window).scrollTop(), altura_iconos)
         $('.iconos-nav').addClass('barra-fixed');
     } else {
