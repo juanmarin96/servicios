@@ -65,13 +65,13 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#Servicio">Servicio</a></li>
-                    <li><a href="#Funciona">Cómo Funciona</a></li>
-                    <li><a href="#Equipo">Equipo</a></li>
-                    <li><a href="#Blog">Blog</a></li>
-                    <li><a href="#Clientes">Clientes</a></li>
-                    <li><a href="#Contácto">Contácto</a></li>
-                    <li><a href="#"><i class="material-icons">search</i></a></li>   
+                    <li><a data-click="#Servicio" data-home="true">Servicio</a></li>
+                    <li><a data-click="#Funciona" data-home="true">Cómo Funciona</a></li>
+                    <li><a data-click="#Equipo" data-home="true">Equipo</a></li>
+                    <li><a data-click="#Blog" data-home="true">Blog</a></li>
+                    <li><a data-click="#Clientes" data-home="true">Clientes</a></li>
+                    <li><a data-click="#Contácto" data-home="true">Contácto</a></li>
+                    <li><a ><i class="material-icons">search</i></a></li>   
                 </ul>
             </div>            
         </div>
@@ -97,58 +97,59 @@
         <div id="body-div" class="animated" data-call-url="@ViewBag.DataCallUrl">
             @RenderBody()
         </div>
-        <br /><br />
-        <footer>
-            <div class="footer-div">
-                <div class="container">
-                    <div class="row" style="margin-bottom:3%">
-                        <div class="col-lg-3 col-md-12">
-                            <img class="img-responsive logo-footer" style="margin-top:8%"  src="~/images/Footer.PNG" />
-                        </div>
-                        <div class="col-lg-6 col-md-12 visible-lg visible-md visible-sm" >
-                            <div class="row" style="margin-top:8%">
-                                <div class="col-lg-5 col-md-4 col-sm-4">
-                                    <div>
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Innovación</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Neuromarketing</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Customer Relationship</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Shopper</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Marketing Mix</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Estrategia</p>
-                                    </div>
+        <br /><br />        
+    </div>
+
+    <footer>
+        <div class="footer-div">
+            <div class="container">
+                <div class="row" style="margin-bottom:3%">
+                    <div class="col-lg-3 col-md-12">
+                        <img class="img-responsive logo-footer" style="margin-top:8%" src="~/images/Footer.PNG" />
+                    </div>
+                    <div class="col-lg-6 col-md-12 visible-lg visible-md visible-sm">
+                        <div class="row" style="margin-top:8%">
+                            <div class="col-lg-5 col-md-4 col-sm-4">
+                                <div>
+                                    <a data-click="@Url.Content("~/Home/Innovacion")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Innovación</a><br />
+                                    <a data-click="@Url.Content("~/Home/Neuromarketing")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Neuromarketing</a><br />
+                                    <a data-click="@Url.Content("~/Home/Cmr")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Customer Relationship</a><br />
+                                    <a data-click="@Url.Content("~/Home/Shopper")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Shopper</a><br />
+                                    <a data-click="@Url.Content("~/Home/Mix")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Marketing Mix</a><br />
+                                    <a data-click="@Url.Content("~/Home/Estrategia")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Estrategia</a>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4">
-                                    <div>
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Cómo funciona</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Estrategía</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Diagnosticamos</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Implementamos</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Crecemos</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-4 col-sm-4">
-                                    <div>
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Equipo</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Clientes</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Contácto</p><br />
-                                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Blog</p>
-                                    </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div>
+                                    <a data-click="@Url.Content("~/Home/ComoFunciona")"  style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Cómo funciona</a><br />
+                                    <a data-click="@Url.Content("~/Home/ComoFunciona")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Estrategía</a><br />
+                                    <a data-click="@Url.Content("~/Home/ComoFunciona")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Diagnosticamos</a><br />
+                                    <a data-click="@Url.Content("~/Home/ComoFunciona")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Implementamos</a><br />
+                                    <a data-click="@Url.Content("~/Home/ComoFunciona")" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Crecemos</a>
+                                </div> 
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-4">
+                                <div>
+                                    <a data-click="#Equipo" data-home="true" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Equipo</a><br />
+                                    <a data-click="#Clientes" data-home="true" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Clientes</a><br />
+                                    <a data-click="#Contácto" data-home="true" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Contácto</a><br />
+                                    <a data-click="#Blog" data-home="true" style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Blog</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-12" style="margin-top:4%">
-                            <img src="~/images/omarketing redes.png" class="img-responsive" style="display:inline;width:42px"/>
-                            <img src="~/images/omarketing redes.png" class="img-responsive" style="display:inline;width:42px" />
-                            <img src="~/images/omarketing redes.png" class="img-responsive" style="display:inline;width:42px" />
-                            <img src="~/images/omarketing redes.png" class="img-responsive" style="display: inline; width:42px" /><br /><br />
-                            <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Carrera 9B # 113 - 66</p><br />
-                            <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Tel: 318 865 56 05</p>
-                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12" style="margin-top:4%">
+                        <img src="~/images/omarketing redes.png" class="img-responsive" style="display:inline;width:42px" />
+                        <img src="~/images/omarketing redes.png" class="img-responsive" style="display:inline;width:42px" />
+                        <img src="~/images/omarketing redes.png" class="img-responsive" style="display:inline;width:42px" />
+                        <img src="~/images/omarketing redes.png" class="img-responsive" style="display: inline; width:42px" /><br /><br />
+                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Carrera 9B # 113 - 66</p><br />
+                        <p style="color:#898888;font-size:20px;text-align:left;font-weight:bold;display:inline">Tel: 318 865 56 05</p>
                     </div>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
    
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

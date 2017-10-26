@@ -6,13 +6,14 @@
     var colorH3 = $(this).data('h3color');
     var flecha1 = $(this).data('flecha1');
     var flecha2 = $(this).data('flecha2');
-    var targetHref = $(this).data('hreftarget')
+    var targetHref = $(this).data('hreftarget');
+    $(targetHref).removeAttr('href');
     $(targetH3).html($(this).data('h3'));
     $(targetP).html($(this).data('p'));
     $(colorH3).css('color', $(this).data('color'));
     $(flecha1).css('background-color', $(this).data('color'));
     $(flecha2).css('background-color', $(this).data('color'));
-    $(targetHref).attr("href", $(this).data('href'));
+    $(targetHref).attr("data-click", $(this).data('click'));
     $('.anim').each(function () {
         $(this).addClass('gray');
     });
@@ -32,10 +33,9 @@ $('#body-div').on('click', '.ver-mas button', function () {
 });
 
 var firstHistory = true;
-function loadView(view) {
-    firstHistory = false;
-    var urldata = view.split('/');     
-    window.history.pushState({ js: true }, "", document.URL.split('?')[0] + '?url=Home%2F' + urldata[urldata.length - 1]);
+function loadView(view, targetTop) {
+    var urldata = view.split('/');
+    if (!firstHistory)  window.history.pushState({ js: true }, "", document.URL.split('?')[0] + '?url=Home%2F' + urldata[urldata.length - 1]);
 
     $('#body-div').removeClass('fadeInRight');
     $('#body-div').addClass('fadeOutLeft');    
@@ -53,31 +53,43 @@ function loadView(view) {
                 $('#body-div').removeClass('fadeOutLeft');
                 $('#body-div').addClass('fadeInRight');
 
-                var top = $('.top-imagen').outerHeight(true);
-                $('html, body').animate({
-                    scrollTop: top
-                }, 1000);
+                if (!firstHistory) {                    
+                    $('html, body').animate({
+                        scrollTop: $(targetTop).offset().top
+                    }, 1000);
+                }
+                firstHistory = false;
             }, 2000);
         });
     }, 1000);    
 }
 
-$('#body-div').on('click', '[data-click]', function () { 
+$('body').on('click', '[data-click]', function () { 
     
     var dataClick = $(this).data('click');
-    
+
+    // Load new
     if (dataClick.indexOf("#") == -1) {
         var top = $('.top-imagen').outerHeight(true);
         $('html, body').animate({
             scrollTop: top
         }, 1000);
-        loadView(dataClick);        
-    } else {        
-        var top = $(dataClick).offset().top;
-        $('html, body').animate({
-            scrollTop: top - 64
-        }, 1000);
-    }     
+        loadView(dataClick, '#empty-fixedbar');   
+        return;
+    }      
+
+    // Scroll
+    if ($(this).data('home')) {
+        if ($(dataClick).offset() === undefined) {
+            loadView('Home/Home', dataClick);            
+            return;
+        } 
+    } 
+    var top = $(dataClick).offset().top;
+    $('html, body').animate({
+        scrollTop: top - 64
+    }, 1000);
+         
 });
 
 function animar() {
@@ -100,8 +112,9 @@ function animar() {
                     $(colorH3).css('color', $(this).data('color'));
                     $(flecha1).css('background-color', $(this).data('color'));
                     $(flecha2).css('background-color', $(this).data('color'));
-                    $(targetHref).attr("href", $(this).data('href'));
-                    $(targetHref1).attr("href", $(this).data('href'));
+                    $(targetHref).data("click", $(this).data('click'));
+                    $(targetHref1).data("click", $(this).data('click'));
+                    console.log("asd");
                 } else {
                     $(this).addClass('gray');
                 }
@@ -121,7 +134,7 @@ $(function () {
         document.location = document.location;
     };
 
-    loadView($("#body-div").data('call-url'));
+    loadView($("#body-div").data('call-url'), '');
     animar();    
 });
 

@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4 col-xs-4 col-sm-4">
+            <div class="col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4 col-xs-12 col-sm-12">
                 <div style="display:inline-block" class="anim-flor" data-anim="on" data-i="0" data-n="6">
                     <img class="img-responsive img-innovacion anim tamano-flor" data-i="0" src="~/Content/Images/s_innovacion.png" data-click="@Url.Content("~/Home/Innovacion")" data-h3="Innovacion" data-h3target="#titulo-encabezado" data-p="Texto Innovacion" data-ptarget="#texto-encabezado" data-h3color=".titulo-encab" data-color="#ffab40" data-flecha1=".flecha-servicios" data-flecha2=".flecha-servicios-2" data-hreftarget="#Index" data-hreftarget1="#Index1" data-href="@Url.Content("/Home/Innovacion")" />             
                     <img class="img-responsive img-estrategia anim tamano-flor" data-i="5" src="~/Content/Images/s_estrategia.png" data-click="@Url.Content("~/Home/Estrategia")" data-h3="Estrategia" data-h3target="#titulo-encabezado" data-p="Texto Estrategia" data-ptarget="#texto-encabezado" data-h3color=".titulo-encab" data-color="#ff6e40" data-flecha1=".flecha-servicios" data-flecha2=".flecha-servicios-2" data-hreftarget="#Index" data-hreftarget1="#Index1" data-href="/Home/Estrategia">
@@ -42,8 +42,8 @@
                     <img class="img-responsive img-shopper anim tamano-flor" data-i="3" src="~/Content/Images/s_shopper.png" data-click="@Url.Content("~/Home/Shopper")" data-h3="Shopper" data-h3target="#titulo-encabezado" data-p="Texto Shopper" data-ptarget="#texto-encabezado" data-h3color=".titulo-encab" data-color="#40c4ff" data-flecha1=".flecha-servicios" data-flecha2=".flecha-servicios-2" data-hreftarget="#Index" data-hreftarget1="#Index1" data-href="/Home/Shopper">
                 </div>           
             </div>
-            <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
-                <a id="Index" href=""><i class="material-icons flecha-servicios-2">chevron_right</i></a>
+            <div class="col-lg-4 col-md-4 hidden-xs hidden-sm">
+                <a id="Index" ><i class="material-icons flecha-servicios-2">chevron_right</i></a>
             </div>
         </div>
         <div class="row">
@@ -58,7 +58,7 @@
     <div id="Funciona">
         <br /><br />
     <div class="row how-container">
-        <div class="col-md-6 col-sm-10 col-xs-10" style="padding-right: 70px;">
+        <div class="col-md-6 col-sm-10 col-xs-10" style="padding-right: 15px;">
             <h6 class="how-title como-r">Cómo funciona</h6>
             <p class="text-section">
                 Diseñamos estrategias integradas de marketing y
@@ -77,7 +77,7 @@
             </p>
         </div>
         <div class="col-xs-2 col-sm-2 visible-xs visible-sm" style="margin-top: 165px;">
-            <a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:35px;background:#448aff;border-radius:50%;">chevron_right</i></a> 
+            <a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:35px;background:#448aff;border-radius:50%;">chevron_right</i></a> 
         </div>
         <div class="col-md-3 col-md-offset-3 hidden-sm hidden-xs algo-emocional-3" style="text-align: right">
             <span class="text-color">--</span>
@@ -90,7 +90,7 @@
             <div class="col-md-4">
                 <div>
                     <h2 class="text-color">
-                         Estrategía<a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;top:5px;margin-left:15px;position:relative">chevron_right</i></a>
+                         Estrategía<a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;top:5px;margin-left:15px;position:relative">chevron_right</i></a>
 </h2>
                     <p class="text-color">
                         Es simplemente el texto de relleno de las
@@ -102,7 +102,7 @@
                 </div>
                 <div style="margin-top: 200px; margin-left: 90px;">
                     <h2 class="text-color">
-                        Implementamos<a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;top:5px;margin-left:15px;position:relative">chevron_right</i></a>
+                        Implementamos<a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;top:5px;margin-left:15px;position:relative">chevron_right</i></a>
 </h2>
                     <p class="text-color">
                         Es simplemente el texto de relleno de las
@@ -124,7 +124,7 @@
             <div class="col-md-4">
                 <div style="margin-top: 100px; margin-left: 20px;">
                     <h2 class="text-color">
-                        Diagnosticamos<a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;top:5px;margin-left:15px;position:relative">chevron_right</i></a>
+                        Diagnosticamos<a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;top:5px;margin-left:15px;position:relative">chevron_right</i></a>
 </h2>
                     <p class="text-color">
                         Es simplemente el texto de relleno de las
@@ -135,11 +135,11 @@
                     </p>
                 </div>
                 <div style="width: 100%;">
-                    <a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:45px;background:#448aff;border-radius:50%;float:right;">chevron_right</i></a>
+                    <a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:45px;background:#448aff;border-radius:50%;float:right;">chevron_right</i></a>
 </div>
                 <div style="margin-top: 180px; margin-left: 0px;">
                     <h2 class="text-color">
-                        Crecemos<a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;top:5px;margin-left:15px;position:relative">chevron_right</i></a>
+                        Crecemos<a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;top:5px;margin-left:15px;position:relative">chevron_right</i></a>
 </h2>
                     <p class="text-color">
                         Es simplemente el texto de relleno de las
@@ -160,7 +160,7 @@
             </div>
             <div class="col-sm-6 col-xs-12">
                 <h2 class="text-color">
-                    Estrategía<a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;margin-top:25px">chevron_right</i></a>
+                    Estrategía <a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;margin-top:25px">chevron_right</i></a>
 </h2>
                 <p class="text-color text-justify">
                     Es simplemente el texto de relleno de las
@@ -180,7 +180,7 @@
             </div>
             <div class="col-sm-6 col-xs-12">
                 <h2 class="text-color">
-                    Diagnosticamos<a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;margin-top:25px">chevron_right</i></a>
+                    Diagnosticamos<a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;margin-top:25px">chevron_right</i></a>
 
 </h2>
                 <p class="text-color text-justify">
@@ -198,7 +198,7 @@
             </div>
             <div class="col-sm-6 col-xs-12">
                 <h2 class="text-color">
-                    Implementamos<a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;margin-top:25px">chevron_right</i></a>
+                    Implementamos<a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;margin-top:25px">chevron_right</i></a>
 </h2>
                 <p class="text-color text-justify">
                     Es simplemente el texto de relleno de las
@@ -218,7 +218,7 @@
             </div>
             <div class="col-sm-6 col-xs-12">
                 <h2 class="text-color">
-                    Crecemos<a href="~/Home/ComoFunciona" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;margin-top:25px">chevron_right</i></a>
+                    Crecemos<a data-click="@Url.Content("~/Home/ComoFunciona")" style="cursor:pointer"><i class="material-icons" style="color:white;font-size:25px;background:#448aff;border-radius:50%;margin-top:25px">chevron_right</i></a>
 </h2>
                 <p class="text-color text-justify">
                     Es simplemente el texto de relleno de las
@@ -627,7 +627,7 @@
                     Segmentación de Cliente (Shopper -
                     Consumidor final), Branding y Comunicación,
                 </p>
-                <a href="~/Home/ArticuloBlog"><i class="material-icons" style="color:white;font-size:35px;background:#ffd600;border-radius:50%;box-shadow:1px 1px  1px grey;float:right">chevron_right</i></a>
+                <a data-click="@Url.Content("~/Home/ArticuloBlog")"><i class="material-icons" style="color:white;font-size:35px;background:#ffd600;border-radius:50%;box-shadow:1px 1px  1px grey;float:right">chevron_right</i></a>
             </div>
         </div>
         <div class="row row-eq-height">
@@ -653,7 +653,7 @@
                     Segmentación de Cliente (Shopper -
                     Consumidor final), Branding y Comunicación,
                 </p>
-                <a href="~/Home/ArticuloBlog"> <i class="material-icons" style="color:white;font-size:35px;background:#00b0ff;border-radius:50%;box-shadow:1px 1px  1px grey;float:right">chevron_right</i></a>
+                <a data-click="@Url.Content("~/Home/ArticuloBlog")"> <i class="material-icons" style="color:white;font-size:35px;background:#00b0ff;border-radius:50%;box-shadow:1px 1px  1px grey;float:right">chevron_right</i></a>
 </div>
         </div>
         <div class="row row-eq-height">
@@ -679,11 +679,11 @@
                     Segmentación de Cliente (Shopper -
                     Consumidor final), Branding y Comunicación,
                 </p>
-                <a href="~/Home/ArticuloBlog"><i class="material-icons" style="color:white;font-size:35px;background:#ff9100;border-radius:50%;box-shadow:1px 1px  1px grey;float:right">chevron_right</i></a>
+                <a data-click="@Url.Content("~/Home/ArticuloBlog")"><i class="material-icons" style="color:white;font-size:35px;background:#ff9100;border-radius:50%;box-shadow:1px 1px  1px grey;float:right">chevron_right</i></a>
 </div>
         </div>
         <div style="margin-top: 30px;" class="row blog-row">
-            <a href="~/Home/DirectorioBlog">
+            <a data-click="@Url.Content("~/Home/DirectorioBlog")">
                 <div class="col-lg-12 blog-row btn-articulos">
                     <h5>Más Articulos</h5>
                 </div>
