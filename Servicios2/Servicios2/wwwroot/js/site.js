@@ -52,6 +52,11 @@ function loadView(view) {
                 $('#body-div').removeClass('hidden');                
                 $('#body-div').removeClass('fadeOutLeft');
                 $('#body-div').addClass('fadeInRight');
+
+                var top = $('.top-imagen').outerHeight(true);
+                $('html, body').animate({
+                    scrollTop: top
+                }, 1000);
             }, 2000);
         });
     }, 1000);    
