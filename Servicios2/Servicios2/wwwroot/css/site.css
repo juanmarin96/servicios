@@ -1315,6 +1315,9 @@
 .slideOutUp {
   animation-name: slideOutUp;
 }
+[data-click]:hover {
+  cursor: pointer;
+}
 .cssload-preloader {
   font-size: 19px;
   display: block;

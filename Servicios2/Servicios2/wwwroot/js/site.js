@@ -28,7 +28,7 @@ $('#body-div').on('mouseleave', '.anim', function () {
 
 $('#body-div').on('click', '.ver-mas button', function () {
     var parent = $(this).parent().get(0);
-    $(parent).children('div').slideToggle();
+    $(parent).children('div').toggle();
 });
 
 var firstHistory = true;
@@ -57,7 +57,7 @@ function loadView(view) {
     }, 1000);    
 }
 
-$('#body-div').on('click', '.anim', function () { 
+$('#body-div').on('click', '[data-click]', function () { 
     
     var dataClick = $(this).data('click');
     
@@ -72,9 +72,7 @@ $('#body-div').on('click', '.anim', function () {
         $('html, body').animate({
             scrollTop: top - 64
         }, 1000);
-    }   
-    
-    
+    }     
 });
 
 function animar() {
